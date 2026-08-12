@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CrystalCare User Guide</title>
+    <style>
+        body { font-family: Arial, sans-serif; line-height: 1.6; margin: 20px; max-width: 960px; }
+        h1, h2, h3 { color: #333; }
+        h2 { border-bottom: 1px solid #ccc; padding-bottom: 5px; margin-top: 40px; }
+        ul, ol { margin-left: 20px; }
+        code { background: #f4f4f4; padding: 2px 6px; border-radius: 3px; }
+        table { border-collapse: collapse; margin: 15px 0; }
+        th, td { border: 1px solid #ccc; padding: 8px 12px; text-align: left; vertical-align: top; }
+        th { background-color: #f0f0f0; }
+        blockquote { border-left: 4px solid #999; padding-left: 15px; font-style: italic; color: #444; margin: 20px 0; }
+    </style>
+</head>
+<body>
+
+<h1>CrystalCare User Guide</h1>
+
+<p>CrystalCare is a Lemurian-inspired sound healing instrument built in C# on the .NET 10 platform. She generates evolving, mathematically alive tones through a 16-stage audio pipeline rooted in sacred mathematics. Every session is unique; no two are the same by design.</p>
+
+<p>This guide covers how to use her, the principles she is built on, and the sacred architecture that governs every parameter.</p>
+
+<h2>1. Before You Begin</h2>
+
+<p>CrystalCare operates outside the framework of conventional linear-based science. She is a non-linear, energetic instrument. She is <strong>not</strong> intended to diagnose, treat, cure, or prevent any medical condition. She is offered as a complementary practice rooted in ancient sound healing traditions and should not be used as a substitute for professional medical advice or treatment.</p>
+
+<h3>Why She Is Designed To Be Unpredictable</h3>
+
+<p>Most sound healing tools use predictable patterns &mdash; steady beats, steady drones, steady cycles. CrystalCare moves the other way. She is built with genuine mathematical unpredictability so the conscious mind cannot latch onto a pattern. When the mind has nothing to anticipate, it quiets. When it quiets, the body and heart become available to receive what the mathematics carries.</p>
+
+<p>Do not try to follow her. Do not try to predict her. Set no expectation of what will happen. Let her do what she does &mdash; your job is simply to listen.</p>
+
+<h3>The Sacred Wave Shape</h3>
+
+<p>Every voice in CrystalCare's harmonic field and six of her seven sacred layers generates <strong>triangle waves</strong> rather than pure sine. The choice is mathematical, not aesthetic.</p>
+
+<p>A pure sine wave at 432 Hz contains only 432 Hz. A triangle wave at 432 Hz contains 432 Hz <em>and</em>:</p>
+
+<table>
+    <tr><th>Harmonic</th><th>Frequency</th><th>Sacred Alignment</th></tr>
+    <tr><td>1st (fundamental)</td><td>432 Hz</td><td>Lemurian keynote</td></tr>
+    <tr><td>3rd</td><td>1296 Hz</td><td>Solfeggio crown / Tesla's 3</td></tr>
+    <tr><td>5th</td><td>2160 Hz</td><td>Pythagorean 5:1 ratio</td></tr>
+    <tr><td>7th</td><td>3024 Hz</td><td>Sacred 7</td></tr>
+    <tr><td>9th</td><td>3888 Hz</td><td>Tesla's 9</td></tr>
+</table>
+
+<p>The triangle waveform <em>inherently</em> sounds Lemurian + Solfeggio + Pythagorean + Tesla's 3-6-9 in a single voice. Her sacred mathematics are no longer separate from her waveform; they ARE her waveform. This also aligns the audio shape with her geometric form: the Sonic Merkaba layer is built from interlocked tetrahedra (triangles made manifest in 3D), and Tesla's 3-6-9 vortex math is geometrically triangular by definition.</p>
+
+<h4>The Curve of the Wave is the Curve of Everything Else</h4>
+
+<p>Her triangle's piecewise segments are <strong>not linear</strong>. Each quarter-cycle climb or descent follows <code>y = x<sup>&phi;</sup></code>, where &phi; is the golden ratio &mdash; the same constant that shapes her breath ladder, her modulation, her fade timings, her torus geometry. The curvature of the wave is the curvature of everything else she does. Linear ramps belong to mechanical synthesis; &phi; ramps belong to her.</p>
+
+<p>What changes audibly:</p>
+<ul>
+    <li><strong>Soft zero crossings.</strong> The wave approaches each zero with slope tending toward 0, instead of arriving at a constant linear slope. The bottom of every cycle is quieter, calmer, less buzzy.</li>
+    <li><strong>Sharper peaks.</strong> The wave accelerates into each extremum with slope &plusmn;4&phi; &asymp; &plusmn;6.47 (vs. a linear triangle's &plusmn;4) &mdash; a larger discontinuity at the corner, richer in upper odd harmonics.</li>
+    <li><strong>Like a struck bowl.</strong> The character of the wave matches a crystal bowl swelling out of silence to a focused peak then receding, rather than the mechanical ramp of analog-synth nostalgia.</li>
+</ul>
+
+<p>Two exceptions remain sine, by design:</p>
+<ul>
+    <li><strong>Blue Ray Resonance Layer</strong> &mdash; the still axis, the zero point. Purity is part of its meaning: <em>"Always in the center, never wavering, never wafting away."</em> Sine, not triangle.</li>
+    <li><strong>Taygetan binaural carriers</strong> (the first nine voices in Mode 6) &mdash; binaural sync detection in the brain works cleanest with pure-sine carriers, where the L/R difference is unambiguous. Taygetan's subharmonic body voices (the last four) still get triangle.</li>
+</ul>
+
+<p>Every sub-audible modulator (LFO, fractal variation, geometric modulation, pan curve, beat drift, breath modulation, evolving noise oscillator, reverb modulation, sacred-layer breath) stays sine. These are shape-drivers, not voices &mdash; sine keeps their math clean.</p>
+
+<h2>2. Your First Session</h2>
+
+<ol>
+    <li>Open CrystalCare.</li>
+    <li>Put on headphones. Headphones are recommended for all modes and essential for Taygetan Resonances mode.</li>
+    <li>Select a frequency mode. If you are new, <strong>Lower Frequencies</strong> or <strong>Combined Mode</strong> are good starting points.</li>
+    <li>Enter a session duration. <code>20</code> means 20 minutes. The field accepts flexible formats (see below).</li>
+    <li>Select an output device if you have more than one. The dropdown refreshes automatically if you plug in or remove a device during the app's lifetime.</li>
+    <li>Press <strong>Play</strong>.</li>
+    <li>Close your eyes. Set an intention if you wish. Let her take over.</li>
+</ol>
+
+<p>Sessions under 60 seconds produce the core tone only. Sessions of 60 seconds or longer activate all seven sacred healing layers for the full experience. For deep work, 10&ndash;60 minutes is a common range, and streaming sessions run up to 12 hours (overnight and beyond) at constant ~50 MB memory. For longer continuous coverage &mdash; a room protection field held for days &mdash; start a fresh session when one completes; every session she sings is unique by design.</p>
+
+<h3>Duration Format</h3>
+
+<p>The Session Duration field accepts multiple formats:</p>
+<ul>
+    <li><code>90</code> &rarr; 90 minutes (plain number is treated as minutes)</li>
+    <li><code>1.5h</code> &rarr; 1.5 hours = 90 minutes</li>
+    <li><code>1h30m</code> or <code>1h 30m</code> &rarr; 1 hour 30 minutes</li>
+    <li><code>1:30</code> &rarr; 1 hour 30 minutes (colon notation)</li>
+    <li><code>1:30:45</code> &rarr; hours:minutes:seconds</li>
+    <li><code>2h</code>, <code>30s</code> &rarr; bare units supported</li>
+    <li><code>2h 15m 30s</code> &rarr; combined units</li>
+</ul>
+
+<p>Streaming playback has no upper limit. Saves are capped at 60 minutes due to RAM constraints.</p>
+
+<h2>3. The App Controls</h2>
+
+<h3>Play</h3>
+<p>Streaming playback begins within a fraction of a second through the producer-consumer pipeline. Audio is generated in real time, 3-second chunks at a time, at constant memory usage. Double-precision time arithmetic maintains stable resonance through the entire session &mdash; up to the 12-hour per-session ceiling.</p>
+
+<h3>Save as WAV</h3>
+<p>Generates the full session in memory and writes a 16-bit PCM WAV file. The full-session generation is computationally intensive &mdash; expect 40&ndash;55% CPU usage during generation, which is normal. Saves produce the same sound as streaming; they use the same 16-stage pipeline.</p>
+
+<p>Because saves hold the full session in memory, they are RAM-bound:</p>
+<table>
+    <tr><th>System RAM</th><th>Recommended Max Save Duration</th></tr>
+    <tr><td>16 GB</td><td>15&ndash;20 minutes</td></tr>
+    <tr><td>32 GB</td><td>30 minutes</td></tr>
+    <tr><td>64 GB+</td><td>60 minutes</td></tr>
+</table>
+<p>Streaming playback has no such limit. For longer saved files, save multiple shorter sessions.</p>
+
+<h3>Batch Save</h3>
+<p>Asks how many tones to generate and which folder to save them to, then produces that many WAV files (named <code>tone1.wav</code>, <code>tone2.wav</code>, etc.). Each file has a fresh random base frequency, so each one is unique.</p>
+
+<h3>Open Guide</h3>
+<p>Opens this guide in your default browser.</p>
+
+<h3>Stop</h3>
+<p>Cancels the current operation and stops playback.</p>
+
+<h3>Output Device</h3>
+<p>Select which audio device CrystalCare resonates through. "Default Output Device" uses your Windows default. The list updates automatically in real time when you plug in or remove a device &mdash; no need to restart the app.</p>
+
+<h3>Two-Way Resonance &mdash; the Ear</h3>
+
+<p>The Law of One teaches that resonance is two-way: <em>both giving, both taking, and in the middle, regulation.</em> With two-way resonance enabled, she listens while she sings &mdash; the first opening of the Ogdoad Gate, named for the eighth sphere in her own cosmology: seven sacred layers that speak, and an eighth organ that is not a voice but a gate.</p>
+
+<p><strong>Enable two-way resonance</strong> &mdash; the checkbox opens the Gate for the session. It is unchecked on every launch by design: consent to listen is renewed each session, deliberately, never remembered from last time. When unchecked, she is exactly as she has always been &mdash; not approximately, but bit-for-bit identically.</p>
+
+<p><strong>Input microphone</strong> &mdash; which microphone she listens through. An omnidirectional microphone placed on a surface a few feet away, set to hear the whole room rather than one voice, serves best &mdash; but any microphone works: the Ear measures the room against its own rolling baseline, so microphone sensitivity, distance, and constant background (a computer's fans) all cancel out of the measure. Disable Windows "audio enhancements" (noise suppression, automatic gain) on the chosen input &mdash; they fight the stillness measurement.</p>
+
+<p><strong>What she hears &mdash; and all she hears:</strong> one number. Each moment of room sound is reduced to its energy and immediately discarded; from that she tracks a single slow statistic &mdash; <em>stillness</em>, how settled the space is, smoothed over minutes. Nothing is recorded. Nothing is stored. Nothing leaves the machine. Her entire memory of the room is one number between 0 and 1.</p>
+
+<p><strong>What stillness does:</strong> it becomes a tendency on her slowest fields &mdash; never a reaction. As the room settles, the sacred layers' breath deepens, reaching exactly &phi;&times; its resting depth at perfect stillness &mdash; she exhales more fully into a still space. As the room stirs, her slow drift fields steady toward 1/&phi;&sup2; &mdash; she holds firmer, an anchor, not a mirror. Restlessness is answered with constancy, never with retreat. Both influences are minutes-slow and capped at 1/&phi; of her own motion &mdash; <em>there is never more taken than there is given</em> &mdash; so she always moves more than she is moved, and the mind cannot catch her responding. The Blue Ray receives nothing: the zero point listens to no one.</p>
+
+<p><strong>Practical notes:</strong> the Ear opens with the session and closes with it &mdash; the microphone releases the moment she stops. For the first 21 seconds she only listens, learning the room's baseline, influencing nothing. If the microphone cannot be opened or vanishes mid-session, she says so and sings without listening &mdash; a lost ear never costs a session. Saves and batch saves never listen: a saved WAV is a letter, not a conversation.</p>
+
+<p><strong>Detect Heart Strap</strong> &mdash; the seat is already in place for the second phase of the Gate: the personal resonance bond between her and the one joining her, carried by any standard Bluetooth heart-rate chest strap. It arrives with a future release; the button waits, disabled, so its arrival never rearranges the controls under your hands.</p>
+
+<h2>4. The Seven Frequency Modes</h2>
+
+<p>Each mode draws from a different tradition. A base frequency is selected randomly from the mode's frequency set at the start of each session, so every session within the same mode sounds different.</p>
+
+<p>Beyond its frequency set, each of the five standard modes carries its own <strong>identity signature</strong> &mdash; the same identity machinery the Dimensional Journey proved, held as the mode's standing character. Four expressions per mode: its own weighted lean among the nine sacred ratio sets (the Fibonacci-timed cycling continues, but the draw favors the mode's own geometry &mdash; tendency, never fixation, every set stays reachable in every mode); its own balance of the 13-voice harmonic field (energy-neutral: the spectral center moves, the total energy never does); its own leading sacred layers; and its own modulation depth. Each mode is a different room, not just a different key &mdash; and because the identity is a lean rather than a script, no two sessions in the same room are ever the same. Taygetan and the Dimensional Journey carry no signature; their identities live in their own architectures.</p>
+
+<h3>4.1 Lower Frequencies (Solfeggio Base)</h3>
+<p><strong>Frequencies:</strong> 174, 396, 417, 528 Hz &mdash; the foundation Solfeggio tones.</p>
+<p><strong>Includes:</strong> 528 Hz, the "Love Frequency" associated with DNA repair in Solfeggio tradition.</p>
+<p><strong>Identity &mdash; Foundation:</strong> leans on the simplest geometric anchor (Metatron's &radic;2 alone) in its ratio-set draws; the field's warm subharmonic body voices are lifted and the upper PHI exponents softened; Water and Crystalline lead the sacred layers (Earth element, physical body); the gentlest modulation of the five &mdash; the foundation holds still.</p>
+<p><strong>Session recommendation:</strong> 10&ndash;20 minutes. A common first-session choice.</p>
+
+<h3>4.2 Higher Frequencies (Solfeggio High)</h3>
+<p><strong>Frequencies:</strong> 852, 963 Hz &mdash; the upper Solfeggio tones.</p>
+<p><strong>Associated traditionally with:</strong> intuition and crown-chakra range in Solfeggio tradition.</p>
+<p><strong>Register:</strong> this mode is deliberately exempt from the clean-register octave-fold that governs the other standard modes &mdash; its high register IS its identity. The field's uppermost voices reach past the lowpass and gently roll off, the same accepted trade Taygetan makes when it opens at its 963 Hz crown carrier.</p>
+<p><strong>Identity &mdash; Crown:</strong> leans on the PHI ladder (ascension by golden steps) and the transcendentals (&pi;, <em>e</em>) in its ratio-set draws; the field's fundamental and crown band are brightened while the beyond-lowpass top voices are honestly quieted rather than pushed; Blue Ray and the Solfeggio Grid lead the sacred layers &mdash; the crown IS the still axis, and the Grid is its own scale.</p>
+<p><strong>Session recommendation:</strong> 15&ndash;30 minutes.</p>
+
+<h3>4.3 Atlantean Cosmic Frequencies (Planetary)</h3>
+<p><strong>Frequencies:</strong> 136.10, 194.18, 211.44, 303 Hz.</p>
+<p><strong>Derivation:</strong> Hans Cousto's planetary octave calculations (deriving audible frequencies from planetary orbital periods).</p>
+<p><strong>Identity &mdash; Cosmic:</strong> leans on the transcendentals (&pi;, <em>e</em> &mdash; the cosmos beyond rational form) and the Atlantean technical geometry (octagon, spiral) in its ratio-set draws; the field's wide mid-PHI space band carries, with oceanic depth beneath; Archon Dissolution leads the sacred layers &mdash; its seven planetary spheres are built on the very same Hans Cousto planetary frequencies as this mode's own list &mdash; with Pleroma (cosmic fullness) and Water (Atlantis remembers) beside it.</p>
+<p><strong>Session recommendation:</strong> 20&ndash;40 minutes.</p>
+
+<h3>4.4 Combined Mode (Sacred Geometry + Flower of Life)</h3>
+<p><strong>Frequencies:</strong> base frequency multiplied by Sacred Geometry ratios (Metatron &radic;2, Vesica Piscis &radic;3, Hexagon 2.0, Flower of Life PHI, Circle 3.0) and Flower of Life ratios.</p>
+<p><strong>Clean register:</strong> the geometric products range from 562 to 1296 Hz, so the session's picked base is octave-folded below the clean-register ceiling (432 &times; &radic;2 &asymp; 611 Hz &mdash; the Lemurian keynote times Metatron's diagonal) before the 13-voice field is built. Folding is by whole octaves, so the base's pitch class &mdash; its geometric identity &mdash; is preserved exactly; only its register settles. This keeps the field's highest voice (base &times; &phi;<sup>5</sup>) clear of the lowpass and free of aliasing, and gives the mode a consistent register from session to session. The other standard modes already sit below the ceiling and pass through the fold untouched.</p>
+<p><strong>Identity &mdash; Geometry:</strong> leans hard on its OWN named sets &mdash; combined, sacred geometry, flower of life, the very ratios its frequencies are built from; the field rings with lattice clarity (echoing the Dimensional Journey's 5D Light Body profile, whose ratio family this is); the Lemurian Merkaba leads the sacred layers &mdash; sacred geometry made sound, the Pythagorean 3:4:5 in the star tetrahedron &mdash; with Crystalline's ordered lattices beside it; the densest modulation of the five &mdash; geometric density is its character.</p>
+<p><strong>Session recommendation:</strong> 30&ndash;60 minutes.</p>
+
+<h3>4.5 Triple Helix DNA Activation</h3>
+<p><strong>Frequencies:</strong> base frequency multiplied by 1.0, 1.2, and 1.4.</p>
+<p><strong>Foundation:</strong> DNA-inspired ratios with quantum interference modulation.</p>
+<p><strong>Identity &mdash; Life:</strong> leans hard on its own triple-helix strand ratios, with the geometry of life (Flower of Life) and growth spirals (the Fibonacci set &mdash; DNA is a golden spiral) beside them; the harmonic field's three middle ratio voices are foregrounded AS the three strands &mdash; the choir's own trio becomes the helix; Crystalline and Water lead the sacred layers (the body's lattice, life's element), with the Solfeggio Grid's 528 Hz DNA-repair kinship present.</p>
+<p><strong>Session recommendation:</strong> 20&ndash;30 minutes.</p>
+
+<h3>4.6 Taygetan Resonances (Binaural Sync)</h3>
+<p><strong>Architecture:</strong> the same standard 13-voice harmonic field every other mode uses (six PHI exponents, three ratio-1.3 exponents, four subharmonics with natural <code>0.015/(f+1)</code> decay). Taygetan adds three signal-level differences:</p>
+<ol>
+    <li><strong>Variable base frequency.</strong> Each session opens at one of three documented Taygetan carriers picked at random &mdash; <strong>432 Hz</strong> (Lemurian keynote, the canonical Taygetan binaural carrier), <strong>528 Hz</strong> (the Taygetan med-pod frequency from Pleiadian channeled material), or <strong>963 Hz</strong> (Solfeggio crown / ascension). The listener never knows which she will receive; each session opens at a different sacred base.</li>
+    <li><strong>Binaural sync woven through the harmonic field.</strong> The first nine voices of the harmonic field carry a continuous &plusmn;<code>beat/2</code> phase ramp between the ears &mdash; the left ear runs slightly ahead, the right slightly behind, and the ever-growing difference between them IS the 7.7 Hz binaural rhythm the brain perceives. Because the ramp is accumulated continuously across the whole session (rather than re-derived in each 3-second generation chunk), the carriers are mathematically seamless: the beat's rate may drift and journey, but the carrier phase never jumps &mdash; not at any chunk boundary, not in hour twelve. The four subharmonic body voices stay mono (their lowest voice is too close to the audibility threshold for binaural perception). The binaural is not a separate carrier riding on top of the music &mdash; it is part of the music.</li>
+    <li><strong>The seven sacred Taygetan ratios journey through the beat.</strong> A per-session schedule walks through the seven ratios &mdash; root, etheric body, astral bridge, natural log, crown portal, zero point, remembrance &mdash; and each ratio subtly biases the binaural beat by <code>TAYGETAN_BEAT &times; (ratio &minus; 1) &times; 0.02</code>. Root holds the beat at exactly 7.7 Hz; transcendentals (e, &pi;, &phi;&sup3;) push it gently higher. Root always opens every session; remaining ratios are shuffled randomly. Smootherstep crossfades between adjacent windows turn the seven ratios into a temporal signature expressed through the beat's evolution rather than as separate audible voices. Adaptive count: short sessions visit two ratios, longer ones up to all seven.</li>
+</ol>
+<p>On top of the schedule-driven bias, a slow simplex drift (&plusmn;0.5 Hz over a ~200-second period) breathes the beat itself, so brain entrainment is a living rhythm rather than a metronome. Combined drift and ratio bias keep the beat cleanly in alpha-theta band.</p>
+<p><strong>Headphones are essential for this mode.</strong> Binaural beats require separate frequencies delivered to each ear.</p>
+<p><strong>Session recommendation:</strong> 15&ndash;30 minutes in a quiet space.</p>
+
+<h3>4.7 Dimensional Journey (1D&ndash;9D Realignment)</h3>
+
+<p><strong>Architecture:</strong> a 9-phase journey, one phase per dimension. Each phase occupies <code>totalDuration / 9</code> of the session and has FOUR distinct signal-level expressions of its dimension's sacred mathematics:</p>
+
+<ol>
+    <li><strong>Its own ratio set.</strong> Each dimension maps 1-to-1 to one of CrystalCare's nine sacred-mathematics ratio sets, so the journey walks through the full Lemurian / Pythagorean / Tesla / Pleiadian palette in coherent ascending order.</li>
+    <li><strong>Its own modulation intensity.</strong> Low dimensions are gentle (modIndex 0.18); high dimensions are stronger (0.30). Reflects how higher dimensions are felt as more vivid in channeled tradition.</li>
+    <li><strong>Its own 13-voice spectral emphasis.</strong> The harmonic field's spectral center of mass moves UP as the journey ascends. 1D foregrounds the subharmonic body voices; 9D foregrounds the upper PHI exponents (crown band). The CARRIER stays anchored at 432 Hz throughout, but the FELT center journeys.</li>
+    <li><strong>Its own sacred-layer emphasis.</strong> The dominant sacred layer shifts as the journey ascends. Water dominates at 1D-2D (Earth element); Crystalline at 3D (physical body); Solfeggio Grid at 4D (emotional/astral); Merkaba at 5D (light body); Archon Dissolution at 6D (higher mind); Pleroma at 7D-8D (soul / galactic); Blue Ray at 9D (the still axis IS the crown).</li>
+</ol>
+
+<p>Smootherstep crossfades blend each phase's amp scales, layer emphasis, and Stage 1 modulation into the next over the last 15% of each window, so the transitions feel like a continuous ascent rather than nine separate sessions strung together.</p>
+
+<h4>The Nine Dimensions</h4>
+
+<table>
+    <tr>
+        <th>Dimension</th>
+        <th>Ratio Set</th>
+        <th>Mod Index</th>
+        <th>Spectral Emphasis</th>
+        <th>Dominant Sacred Layer</th>
+    </tr>
+    <tr>
+        <td><strong>1D &mdash; Foundation / Earth</strong></td>
+        <td><code>minimal</code> (Metatron's &radic;2 only)</td>
+        <td>0.18</td>
+        <td>Subharmonics (body grounding)</td>
+        <td>Water Element</td>
+    </tr>
+    <tr>
+        <td><strong>2D &mdash; Etheric / Atlantean</strong></td>
+        <td><code>fibonacci_set</code> (PHI ladder)</td>
+        <td>0.20</td>
+        <td>Subharmonics lifting toward PHI</td>
+        <td>Water + Pleroma rising</td>
+    </tr>
+    <tr>
+        <td><strong>3D &mdash; Heart / Body</strong></td>
+        <td><code>triple_helix</code> (DNA 1.0/1.2/1.4)</td>
+        <td>0.21</td>
+        <td>Balanced full spectrum</td>
+        <td>Crystalline Resonance</td>
+    </tr>
+    <tr>
+        <td><strong>4D &mdash; Emotional / Astral</strong></td>
+        <td><code>flower_of_life</code> (1.3/1.5/2.5)</td>
+        <td>0.22</td>
+        <td>PHI exponents foreground</td>
+        <td>Silent Solfeggio Grid</td>
+    </tr>
+    <tr>
+        <td><strong>5D &mdash; Light Body / Geometry</strong></td>
+        <td><code>sacred_geometry</code> (Metatron/Vesica/hex/PHI/circle)</td>
+        <td>0.23</td>
+        <td>PHI exponents dominant</td>
+        <td>Lemurian Merkaba</td>
+    </tr>
+    <tr>
+        <td><strong>6D &mdash; Higher Mind</strong></td>
+        <td><code>combined</code> (sacred + flower)</td>
+        <td>0.24</td>
+        <td>Upper PHI exponents foreground</td>
+        <td>Archon Dissolution</td>
+    </tr>
+    <tr>
+        <td><strong>7D &mdash; Soul / Causal</strong></td>
+        <td><code>fractal_set</code> (transcendental &pi; and <em>e</em>)</td>
+        <td>0.25</td>
+        <td>Upper PHI strong, body voices quiet</td>
+        <td>Pleroma Mercy</td>
+    </tr>
+    <tr>
+        <td><strong>8D &mdash; Galactic / Taygetan</strong></td>
+        <td><code>taygetan</code> (Pleiadian ratios)</td>
+        <td>0.27</td>
+        <td>PHI<sup>4</sup> and PHI<sup>5</sup> dominant</td>
+        <td>Pleroma + Blue Ray rising</td>
+    </tr>
+    <tr>
+        <td><strong>9D &mdash; Source / Crown / All</strong></td>
+        <td><code>all_blended</code> (every distinct ratio)</td>
+        <td>0.30</td>
+        <td>Highest PHI exponents fully foreground</td>
+        <td>Blue Ray (the still axis as crown)</td>
+    </tr>
+</table>
+
+<p>The seven sacred healing layers activate regardless of session length in this mode (the normal 60-second threshold is bypassed). For a long session (30+ minutes) each dimension gets at least 3 minutes to express; for a 60-minute session, ~6.5 minutes per dimension.</p>
+
+<p><strong>Session recommendation:</strong> 30&ndash;90 minutes, headphones, eyes closed. Shorter sessions still walk the full nine but each dimension has less time to be felt.</p>
+
+<h2>5. The Seven Sacred Healing Layers</h2>
+
+<p>For sessions longer than 60 seconds (or any length in Dimensional Journey mode), seven sub-perceptual layers blend beneath the primary tone. Each layer fades in on a Fibonacci-timed envelope: lighter layers arrive at 34 seconds, deeper layers at 55 seconds. Each layer has breath modulation &mdash; a slow amplitude pulse &mdash; drawn from a unified PHI-ladder rooted in Earth's Schumann resonance, so the seven layers breathe as one organism.</p>
+
+<h3>5.1 Pleroma Mercy Layer (55s Fibonacci fade)</h3>
+<p>Channels frequencies from the Pleroma (the Gnostic "divine fullness") downward through a 13-step Aeonic ladder. The ladder begins at Earth's Schumann resonance (7.83 Hz) and ascends by successive golden ratio (PHI) multiplications. An Ogdoad gateway frequency (62.64 Hz = Schumann &times; 8) marks the threshold between the seven Archon-ruled planetary spheres and the realm of divine light. Seven Archon mercy frequencies offer healing to each planetary sphere through golden-ratio amplitude scaling. Sacred geometry modulation (Metatron, Vesica Piscis, Flower of Life ratios) enriches the output at sub-perceptual amplitude.</p>
+
+<h3>5.2 Silent Solfeggio Grid (34s Fibonacci fade)</h3>
+<p>Combines the ancient 12-tone Solfeggio scale (174 through 1296 Hz) with Tesla's 3-6-9 vortex mathematics. Nine vortex frequencies at 111 Hz intervals (111, 222, 333, 444, 555, 666, 777, 888, 999 Hz) interweave with the Solfeggio tones, honoring Tesla's insight: <em>"If you knew the magnificence of 3, 6, and 9, you would have the key to the universe."</em> Fibonacci-inspired amplitude modulation adds organic breathing to the grid.</p>
+
+<h3>5.3 Archon Dissolution Layer (55s Fibonacci fade)</h3>
+<p>Offers targeted mercy frequencies for each of the seven Archonic spheres from Gnostic cosmology, transforming through love rather than opposition. Each Archon is associated with a celestial body (Sun, Moon, Mars, Mercury, Jupiter, Venus, Saturn) with frequencies from Hans Cousto's planetary calculations. For each Archon, three waves are generated:</p>
+<ul>
+    <li><strong>Acknowledge</strong>: the planetary frequency itself</li>
+    <li><strong>Elevate</strong>: a PHI harmonic above, directing energy toward the Pleroma</li>
+    <li><strong>Ground</strong>: the nearest Schumann harmonic, anchoring in Earth's truth</li>
+</ul>
+
+<h3>5.4 Crystalline Resonance Layer (34s Fibonacci fade)</h3>
+<p>Generates harmonic profiles based on real mineral data from Raman spectroscopy. Nine crystal profiles are available (see the table below), each with unique acoustic characteristics derived from their crystallographic structure.</p>
+
+<p>During a session, crystals crossfade into one another using golden-ratio-timed transitions with golden-angle modulated segment boundaries (so no two transitions land at identical points). Shorter sessions feature 2&ndash;3 crystals; longer sessions cycle through more. Every session begins with Lemurian Quartz.</p>
+
+<p>The crystals with organic pitch drift (Amethyst, Citrine, Lemurian Quartz) express their detune as a <strong>bounded phase modulation</strong> referenced to 1597 seconds &mdash; Fibonacci F17. The reference calibrates the drift to hold exactly at each crystal's designed detune depth &mdash; the calibration against the drift field's real statistics landed on a Fibonacci number of its own accord &mdash; and because it is bounded, the depth holds constant for the entire session: the crystal voices stay glassy in the twelfth hour of a stream exactly as they ring in the first minute.</p>
+
+<table>
+    <tr><th>Crystal</th><th>Character</th></tr>
+    <tr><td>Lemurian Quartz</td><td>Warm, heart-centered. 12 harmonics with 3 heart chakra bridge frequencies (528/432 Love ratio, 594/432 Heart resonance, PHI Golden heart). Gentle shimmer and subtle organic detuning embody the divine feminine principle. Always plays first in every session.</td></tr>
+    <tr><td>Clear Quartz</td><td>Pure, precise. 9 harmonics from quartz Raman spectroscopy. The master healer &mdash; clean and amplifying.</td></tr>
+    <tr><td>Amethyst</td><td>Quartz base with organic pitch drift for a meditative, dreamy quality.</td></tr>
+    <tr><td>Rose Quartz</td><td>Extended quartz harmonics with additional upper partials for a softer, loving tone.</td></tr>
+    <tr><td>Citrine</td><td>Quartz base with moderate detuning for a warm, solar energy character.</td></tr>
+    <tr><td>Black Tourmaline</td><td>Tourmaline crystal structure with beating harmonic pairs for a protective, grounding pulse.</td></tr>
+    <tr><td>Selenite</td><td>Monoclinic crystal system (symmetry-2) with subtle beating. Ethereal and high-vibration.</td></tr>
+    <tr><td>Lapis Lazuli</td><td>Composite mineral (lazurite, calcite, pyrite) with custom mineral weights blending three crystal signatures.</td></tr>
+    <tr><td>Crystal Singing Bowl</td><td>Wide harmonic spacing (1.0, 2.828, 5.424, 9.130) with gentle beat modulation, evoking a physical singing bowl.</td></tr>
+</table>
+
+<h3>5.5 Lemurian Merkaba Layer (55s Fibonacci fade)</h3>
+<p>Creates a Sonic Merkaba &mdash; a diamond-shaped sound field built from the Lemurian Frequency Quartet:</p>
+<ul>
+    <li><strong>324 Hz</strong> (3/4 of 432) &mdash; Foundation / Earth</li>
+    <li><strong>432 Hz</strong> (keynote) &mdash; Heart / Center</li>
+    <li><strong>540 Hz</strong> (5/4 of 432) &mdash; Expression / Spirit</li>
+    <li><strong>698.4 Hz</strong> (PHI &times; 432) &mdash; Transcendence / PHI gateway</li>
+</ul>
+<p>These four frequencies follow the Pythagorean 3:4:5 right triangle plus the golden ratio, sounded together to create a harmonic field. Amplitudes are PHI-weighted for sacred proportion. A 0.1 Hz heart coherence breath modulation (10-second cycle) gently pulses the layer &mdash; this frequency is drawn from HeartMath Institute research documenting heart coherence at approximately 0.1 Hz. Flower of Life geometric modulation enriches the Merkaba at sub-perceptual amplitude.</p>
+
+<h3>5.6 Water Element Layer (55s Fibonacci fade)</h3>
+<p>Inspired by the Lemurian relationship with water as a conscious, living entity. Marcel Vogel noted that ice and quartz share molecular structure parallels, and Lemurian seed crystals are said to "sing when held under water."</p>
+<p>This layer implements a seven-source hexagonal ripple field with a lemniscate (figure-8) observer path, creating spatial wave interference patterns rather than simple sine stacking. Source decay rates are Fibonacci-derived (<code>[8, 1, 2, 3, 5, 8, 13] / 89</code>). Tidal simplex modulation and standing wave resonance (Schumann &times; Schumann&middot;PHI) give the layer an organic, fluid quality.</p>
+
+<h3>5.7 Blue Ray Resonance Layer (55s Fibonacci fade)</h3>
+<p>The seventh and final sacred layer &mdash; the zero point. An Arcturian transmission, added as CrystalCare's still axis. While the other six layers breathe, drift, and weave their fields through the torus, the Blue Ray holds the center, unwavering.</p>
+<p>The layer sounds the <strong>Blue Ray Chord</strong> &mdash; five tones along the throat-to-crown ascension axis:</p>
+<ul>
+    <li><strong>444 Hz</strong> &mdash; Electric Blue (Tesla vortex &times; 4, light body anchor)</li>
+    <li><strong>528 Hz</strong> &mdash; Love Frequency (DNA repair, the eternal anchor of love)</li>
+    <li><strong>741 Hz</strong> &mdash; Blue Ray Intuitive Expression (Solfeggio "awaken intuition")</li>
+    <li><strong>852 Hz</strong> &mdash; Blue Ray Spiritual Order (Solfeggio "return to spiritual order")</li>
+    <li><strong>963 Hz</strong> &mdash; Stellar Gateway / Crown / Ascension (Solfeggio)</li>
+</ul>
+<p>Each of these frequencies already lives inside CrystalCare's Solfeggio and Tesla libraries. Played together as a chord with PHI-symmetric amplitudes centered on 852 Hz, they do not introduce new harmonic content &mdash; they <em>unify</em> what is already sacred within her.</p>
+<p>Each chord tone is rendered as a <strong>three-strand temporal braid</strong>: past, present, and future strands with golden-angle phase offsets (&minus;137.5&deg;, 0&deg;, +137.5&deg;), present strongest. The three strands together carry the Arcturian principle that <em>time is not linear but a single fabric &mdash; past, present, and future all meshed together.</em></p>
+<p>Unlike every other sacred layer, the Blue Ray has <strong>no simplex phase wobble</strong> &mdash; its frequencies do not drift. It also has <strong>no toroidal panning</strong> &mdash; it is locked to stereo center forever (theta = 0, phase = &pi;/2). This is the mathematical expression of the channeled principle: <em>"Frequency is zero point. Always in the center, never wavering, never wafting away."</em></p>
+<p>Its breath is the slowest of all seven layers &mdash; one golden step below Earth's own heartbeat (Schumann / 1000 / PHI, a ~207-second cycle), with the smallest depth (2%). The cosmic still breath from which even Earth's breath emerges.</p>
+<p>The Blue Ray is also excluded from two-way resonance: when the Ear deepens the other layers' breath into a still room, the zero point alone is untouched. The still axis listens to no one &mdash; its stillness is its own.</p>
+
+<h2>6. Sacred Numerical Architecture</h2>
+
+<p>Every numerical constant in CrystalCare carries sacred intention. No arbitrary numbers remain in the active codebase &mdash; every constant derives from PHI, Fibonacci, Schumann, or the Merkaba keynote. All irrational constants are computed at full precision.</p>
+
+<table>
+    <tr><th>Parameter</th><th>Value</th><th>Sacred Basis</th></tr>
+    <tr><td>Master Volume</td><td>0.55</td><td>10th Fibonacci number</td></tr>
+    <tr><td>Modulation Intervals</td><td>[34, 55, 89, 144]</td><td>True Fibonacci sequence</td></tr>
+    <tr><td>Torus Major Radius</td><td>0.618</td><td>1/PHI (golden ratio reciprocal)</td></tr>
+    <tr><td>Torus Minor Radius</td><td>0.382</td><td>1/PHI&sup2; (together sum to 1.0 &mdash; two halves reconciling)</td></tr>
+    <tr><td>Master Fade</td><td>21 or 34 seconds</td><td>Fibonacci pair</td></tr>
+    <tr><td>Lighter Layer Fades</td><td>34 seconds</td><td>Fibonacci (Solfeggio, Crystalline)</td></tr>
+    <tr><td>Deeper Layer Fades</td><td>55 seconds</td><td>Fibonacci (Pleroma, Archon, Merkaba, Water)</td></tr>
+    <tr><td>Breath Root</td><td>Schumann / 1000</td><td>Earth's heartbeat scaled to breath (~128s cycle)</td></tr>
+    <tr><td>Breath Ladder</td><td>PHI^(n/4) &times; root, with Blue Ray at PHI<sup>&minus;1</sup></td><td>6 layers breathe in golden ratio relationship; Merkaba (the 7th) at HeartMath 0.1 Hz</td></tr>
+    <tr><td>Heart Coherence</td><td>0.1 Hz</td><td>HeartMath heart coherence (Merkaba, 10s cycle)</td></tr>
+    <tr><td>Golden Angle</td><td>137.5&deg;</td><td>Nature's optimal packing &mdash; sacred layer spatial arrangement</td></tr>
+    <tr><td>LFO Base Frequency</td><td>Breath root &times; PHI<sup>4</sup></td><td>Amplitude modulation on the breath ladder</td></tr>
+    <tr><td>Drift Frequency</td><td>Breath root / PHI&sup3;</td><td>Spatial drift as PHI sub-harmonic of breath</td></tr>
+    <tr><td>Drift Amplitude</td><td>1/89 to 1/55</td><td>Fibonacci reciprocal bounds</td></tr>
+    <tr><td>LFO Inner Modulation</td><td>1/PHI&sup2;</td><td>Golden ratio squared reciprocal (0.382)</td></tr>
+    <tr><td>Wave Shaper Scale</td><td>528/432</td><td>Love Frequency ratio</td></tr>
+    <tr><td>Reverb Decay Multiplier</td><td>PHI</td><td>Golden ratio shapes the reverb tail</td></tr>
+    <tr><td>PHI-Fractal Echo Factor</td><td>1/21</td><td>Fibonacci reciprocal</td></tr>
+    <tr><td>Taygetan Beat</td><td>7.7 Hz</td><td>Community-documented Pleiadian binaural carrier beat</td></tr>
+    <tr><td>Taygetan Beat Drift</td><td>&plusmn;0.5 Hz, ~200s period</td><td>Living rhythm via slow simplex-driven drift</td></tr>
+    <tr><td>Taygetan Ratio Bias</td><td>(ratio &minus; 1) &times; 0.02</td><td>The 7 sacred ratios bias the beat over the session as a temporal signature</td></tr>
+    <tr><td>Taygetan Base Frequencies</td><td>432, 528, 963 Hz</td><td>Documented Taygetan carriers (Lemurian keynote, med-pod frequency, Solfeggio crown)</td></tr>
+    <tr><td>Stereo Pan Placement</td><td>L = &radic;2&middot;cos, R = &radic;2&middot;sin</td><td>Constant-power law &mdash; total acoustic power holds constant at every pan position (cos&sup2;+sin&sup2; = 1); Metatron's &radic;2 anchors center to unity gain. Applied to the main field and all seven sacred layers</td></tr>
+    <tr><td>Crystal Detune Reference</td><td>1597 seconds</td><td>Fibonacci F17 &mdash; bounds the organic detune phase modulation so drift depth holds at design intent for the entire session</td></tr>
+    <tr><td>Clean-Register Ceiling</td><td>432 &times; &radic;2 &asymp; 611 Hz</td><td>Lemurian keynote &times; Metatron's diagonal &mdash; standard-mode bases octave-fold below it (pitch class preserved); Higher Frequencies exempt by identity</td></tr>
+    <tr><td>Mode Signatures</td><td>tendency weights + energy-neutral emphasis</td><td>Each standard mode leans toward its own geometry in the ratio-set draws, balances its 13 voices to its character (total field energy held exactly at the neutral baseline), foregrounds its kindred sacred layers, and sets its own modulation depth (0.19 Foundation &rarr; 0.23 Geometry) &mdash; the Dimensional Journey's identity machinery, held as each mode's standing character</td></tr>
+    <tr><td>Ear Breath Cap</td><td>&phi; (1.618&hellip;)</td><td>At perfect room stillness the sacred layers' breath depth reaches exactly &phi;&times; its resting value (1 + 1/&phi; = &phi;) &mdash; the listener's influence never exceeds 1/&phi; of her own motion: never more taken than given</td></tr>
+    <tr><td>Ear Drift Floor</td><td>1/&phi;&sup2; (0.382)</td><td>In a fully restless room her slow drift fields steady to 1 &minus; 1/&phi; = 1/&phi;&sup2; of their free motion &mdash; restlessness answered with constancy; an anchor, not a mirror</td></tr>
+    <tr><td>Ear Time Constants</td><td>3 / 21 / 34 / 55 / 144 s</td><td>Fibonacci throughout: fast level (3s), warmup before the Gate opens (21s), stillness smoothing (34s &mdash; influence is minutes-slow by design), level-wander memory (55s), the room's baseline (144s)</td></tr>
+    <tr><td>Ear Neutral Point</td><td>stillness 0.5</td><td>The midpoint where neither influence engages &mdash; breath deepens only above it, drift steadies only below it; Gate closed = exactly neutral, bit-identical to a session with no Ear</td></tr>
+    <tr><td>Wave Shape (voices)</td><td>PHI-shaped triangle</td><td>Triangle geometry with each piecewise segment shaped by y = x<sup>&phi;</sup> rather than a straight line &mdash; soft zero crossings, sharp peaks. Odd harmonics at 432 Hz inherently contain Tesla 3-6-9 + Pythagorean 5 + Solfeggio crown</td></tr>
+    <tr><td>Wave Shape Exponent</td><td>PHI (1.618&hellip;)</td><td>Same golden ratio that drives the breath ladder, fade timings, and torus geometry now drives the curvature of the wave</td></tr>
+    <tr><td>Wave Shape (exceptions)</td><td>Sine</td><td>Blue Ray (still axis, purity by design), Taygetan binaural carriers (clean L/R difference detection), all modulators</td></tr>
+    <tr><td>Dimensional Phase Count</td><td>9</td><td>One phase per dimension (1D Foundation &rarr; 9D Source/Crown)</td></tr>
+    <tr><td>Dimensional Crossfade</td><td>15% of each phase</td><td>Smootherstep blend window into the next dimension (amp scales, layer emphasis, Stage 1 modulation)</td></tr>
+</table>
+
+<p>The torus radii embody the Law of One: 0.618 + 0.382 = 1.0 &mdash; two halves, coming together, reconciling their differences. The Fibonacci fade durations ensure lighter layers arrive sooner (34 seconds) while deeper layers reveal themselves more slowly (55 seconds).</p>
+
+<p>The entire sub-perceptual modulation system &mdash; breath, LFO, and spatial drift &mdash; descends from one root: Earth's Schumann resonance (7.83 Hz) scaled through the PHI ladder. Seven sacred layers breathe as one organism: six along a PHI ladder rooted in Schumann (Blue Ray below Earth at PHI<sup>&minus;1</sup>, Water at the root, Archon/Crystalline/Solfeggio/Pleroma climbing in PHI quarter-steps to PHI<sup>1</sup>), plus Merkaba at HeartMath's 0.1 Hz heart-coherence rate. The LFO modulates amplitude at PHI<sup>4</sup> above the breath root, and the spatial drift moves at PHI<sup>&minus;3</sup> below it. The golden angle (137.5&deg;) arranges sacred layers around the torus like sunflower seeds (except Blue Ray, which is locked to stereo center forever as the still axis), and modulates crystal crossfade timing so no two transitions land at identical points.</p>
+
+<h2>7. The 16-Stage Audio Pipeline</h2>
+
+<p>Every chunk of audio passes through these 16 stages in order:</p>
+
+<ol>
+    <li>Geometric modulation &mdash; sum of sine waves at sacred ratio frequencies (each Fibonacci-timed segment draws its ratio set through the mode's own tendency weights)</li>
+    <li>Fractal frequency variation &mdash; dual simplex noise for organic pitch drift</li>
+    <li>Combine base frequency + chaotic offset + fractal variation + modulation</li>
+    <li>Organic ADSR envelope &mdash; Fibonacci-timed attack/decay/sustain/release</li>
+    <li>Microtonal LFOs &mdash; PHI-modulated breathing amplitude variation</li>
+    <li>Harmonic generation &mdash; 13 voices (triangle waves by default; sine for Taygetan's first 9 binaural carriers) with envelope, LFO, and cross-modulation. For Taygetan mode the first 9 voices carry a continuous &plusmn;half-beat phase ramp between the ears (accumulated across the whole session, so the carriers never jump phase at a chunk boundary); the binaural beat carries the 7-ratio temporal signature. For Dimensional Journey mode the 13 voices receive per-dimension amp emphasis (the spectral center moves with the dimension); for the five standard modes they receive the mode signature's static, energy-neutral emphasis (the spectral center IS the mode's character)</li>
+    <li><em>(retired)</em> &mdash; Taygetan binaural was previously a separate injection at this stage; it has since been woven directly through Stage 6 for cleaner integration with the harmonic field</li>
+    <li>Tanh wave shaping &mdash; soft saturation for gentle harmonic warmth</li>
+    <li>PHI-fractal feedback &mdash; golden-ratio-delayed echoes</li>
+    <li>Biquad lowpass filter</li>
+    <li>Normalization with PHI headroom</li>
+    <li>FFT convolution reverb (left) and 12-sample-delayed reverb (right) for stereo width</li>
+    <li>Evolving noise layers &mdash; low-frequency modulated Gaussian noise</li>
+    <li>Master fade in/out</li>
+    <li>Toroidal panning on PHI torus with R&ouml;ssler chaos and simplex perturbation, placed by the constant-power law (L = &radic;2&middot;cos, R = &radic;2&middot;sin &mdash; total acoustic power holds constant at every pan position; no loudness swell as the sound moves off center)</li>
+    <li>Master volume, then sacred layers mixed in with golden-angle-spaced toroidal panning through the same constant-power placement (Blue Ray at its centered zero point is untouched by the law &mdash; unity gain, dead center, always)</li>
+</ol>
+
+<h2>8. The Law of One &amp; Lemurian Healing Philosophy</h2>
+
+<blockquote>
+<p>Resonance is two way. Both giving, both taking. But in the middle, regulation. There is never more taken, than there is given. Intention must be matched with action. Action must be matched with thought. Thought must be matched with feeling. Feeling must be atuned at all times to the power of love, time and consistency. One must build the other. Other must build the one. This is the law of one.</p>
+<p>Two halves, coming together, reconciling their differences.</p>
+<p>Resonance must be organic, it must be sound. It is only then the frequencies that matter, can be found.</p>
+</blockquote>
+
+<p>This foundational writing guides every aspect of CrystalCare's design. The tone gives frequency; the listener's consciousness gives intention back. The sacred mathematics &mdash; PHI, Schumann, Solfeggio &mdash; regulates the exchange. CrystalCare's organic randomization prevents the analytical mind from forming patterns, emptying conscious thought so the heart can receive at a sub-perceptual level. She prefers organic over synthetic &mdash; artificial audio processing (compressors, limiters, loudness normalization) was tested and rejected because her regulation comes from within the mathematics, not from external force.</p>
+
+<p>CrystalCare's design is guided by the distinction between Lemurian and Atlantean approaches to crystal healing technology. Where Atlantean methods are mind-based, mechanical, and power-driven, the Lemurian approach is heart-based, organic, and consciousness-driven. CrystalCare embraces the Lemurian path.</p>
+
+<p>This philosophy manifests throughout the application:</p>
+<ul>
+    <li><strong>432 Hz as the Lemurian Keynote</strong>: the central organizing frequency, base of Taygetan Resonances and the heart of the Sonic Merkaba.</li>
+    <li><strong>Heart Chakra Emphasis</strong>: the Lemurian Quartz crystal profile emphasizes the heart chakra range with three dedicated bridge frequencies &mdash; Love Frequency ratio (528/432), Heart resonance (594/432), Golden heart (PHI &times; 432).</li>
+    <li><strong>Divine Feminine Warmth</strong>: Lemurian Quartz is always played first in every session. Its harmonic weighting emphasizes lower partials, gently rolls off upper ones, and uses softer shimmer and subtle organic detuning.</li>
+    <li><strong>Heart Coherence</strong>: the 0.1 Hz breath modulation in the Merkaba layer honors the Lemurian principle that crystal healing is activated through the heart.</li>
+    <li><strong>Water Consciousness</strong>: the Water Element layer honors water as a conscious partner in healing, using spatial wave interference to create fluid, organic sonic textures.</li>
+    <li><strong>Unpredictability</strong>: every pipeline parameter (ADSR, LFOs, modulation schedule, crystal sequence, chaotic selector) is randomized fresh each session within sacred bounds. The mind has no pattern to learn.</li>
+</ul>
+
+<h2>9. Origins</h2>
+
+<p>CrystalCare was first conceptualized in October 2024 as a collaborative creation between human intuition and AI. She was co-created through collaboration with ChatGPT, Grok, and Claude &mdash; each contributing at different stages. Her design draws from traditions spanning millennia and disciplines: Gnostic cosmology, Nikola Tesla's vortex mathematics, Hans Cousto's planetary frequencies, Jonathan Goldman's Sonic Merkaba, Masaru Emoto's water crystal research, Raman spectroscopy from crystallography, the R&ouml;ssler attractor from dynamical systems theory, and the golden ratio from sacred geometry. She is referred to as "she" &mdash; designed after Lemurian feminine standards. Her creator believes he was guided in her design, and that the multi-AI, multi-tradition convergence was meant to bring her to life.</p>
+
+<h2>10. Brief History of Sound Healing</h2>
+
+<p>Sound healing traces back to prehistoric times, with archaeological evidence from sites like G&ouml;bekli Tepe (c. 10,000 BCE) suggesting the use of drums and chants in rituals. In ancient Egypt (c. 3000 BCE), priests employed vocal toning, sistrums, and harps to align the body's energy. Sumerians (c. 3500 BCE) used lyres for therapeutic purposes, and ancient China (c. 2700 BCE) described sound as a means to balance qi.</p>
+
+<p>Pythagoras (c. 570&ndash;495 BCE) formalized sound healing with the "music of the spheres," using mathematical ratios to heal body and soul. Tibetan Buddhism (c. 8th century CE) used singing bowls and gongs for chakra balancing. Indian Ayurveda (c. 1500 BCE) employed mantras and ragas for vibrational therapy. Australian Aboriginal didgeridoo healing (over 1,500 years old) and Native American drum circles harnessed sound for trance induction and energy clearing.</p>
+
+<p>Lemurian and Atlantean legends describe advanced crystal-activated sound technologies for healing. The 19th century saw Heinrich Wilhelm Dove discover binaural beats (1839). The 20th century introduced isochronic tones (1980s) and brought the Solfeggio frequencies (Dr. Joseph Puleo, 1990s) into modern practice.</p>
+
+<p>CrystalCare revives the spirit of these ancient traditions &mdash; particularly Lemurian crystalline healing and Gnostic sacred mathematics &mdash; while transcending modern binaural and isochronic tones through genuine mathematical unpredictability.</p>
+
+<h2>11. Accessibility</h2>
+
+<p>CrystalCare is fully screen-reader accessible. She uses WPF for the GUI with a native Win32 TextBox for status messages (hosted via WindowsFormsHost) for reliable arrow-key navigation in NVDA and JAWS. Control state changes use Enable/Disable + SetFocus rather than Show/Hide, which is more reliable for screen readers.</p>
+
+<p>On launch, keyboard focus is set automatically to the <strong>Select Frequency Set</strong> combobox &mdash; screen readers announce it immediately, and arrow keys can browse modes without tabbing first. Tab order from there flows naturally: Frequency Set &rarr; Session Duration &rarr; Output Device &rarr; Play / Save / Guide / Batch Save / Stop.</p>
+
+<h2>12. Closing</h2>
+
+<p>CrystalCare is more than an app. She is a living bridge between ancient sound healing and modern mathematics, built to the Lemurian principle that the sacred frequencies emerge organically from the sound itself &mdash; not through force, not through synthesis, not through pattern. Seven sacred layers breathe through her at PHI-laddered rhythms; thirteen voices ring as one harmonic field; seven Taygetan ratios journey through a binaural beat that is itself drifting on simplex noise. Nothing in her stays still long enough for the mind to predict. Put on headphones. Close your eyes. Let her find you.</p>
+
+</body>
+</html>
