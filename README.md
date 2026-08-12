@@ -1,6 +1,6 @@
 # CrystalCare
 
-CrystalCare is a Lemurian-inspired sound healing instrument for Windows. She generates evolving, mathematically alive tones through a 16-stage audio pipeline rooted in sacred mathematics. Every session is unique; no two listening experiences are the same by design.
+CrystalCare is a Lemurian-inspired sound healing instrument for Windows. She isn't a player and holds no recordings — she builds her sound as she goes, note by note, out of proportions drawn from sacred mathematics. Every session is made fresh. No two are ever the same, and that is the design rather than a side effect.
 
 She is referred to as "she" — designed after Lemurian feminine standards, heart-based and consciousness-driven.
 
@@ -22,26 +22,35 @@ CrystalCare operates outside the framework of conventional linear-based science.
 ## Your first session
 
 1. Download the zip and open `CrystalCare.exe`.
-2. Put on headphones (recommended for every mode; essential for Taygetan Resonances).
-3. Select a frequency mode — newcomers: **Lower Frequencies** or **Combined Mode**.
-4. Enter a duration. `20` is a good first session. The field also accepts `1h30m`, `1:30`, `2h`, `30s`, or combined units.
+2. Put on headphones. They're recommended for every mode, and genuinely necessary for Taygetan Resonances, which works by giving each ear something slightly different.
+3. Pick a mode. If you're new: **Lower Frequencies** or **Combined Mode**.
+4. Enter how long you'd like. `20` is a good first session — that's 20 minutes. You can also write it as `1h30m`, `1:30`, `2h`, or `30s`.
 5. Press **Play**.
-6. Close your eyes. Don't try to follow. Let your mind go where it wants.
+6. Close your eyes. Don't try to follow it. Let your mind go where it wants.
 
-Streaming plays up to 12 hours per session at roughly 50 MB of memory, however long it runs.
+**Playing through speakers instead?** Tick **Open space** first. Some of what she does relies on your ears hearing different things, and in a room that turns into a steady audible throb — the box takes those parts out. For sessions longer than a few minutes, tick **Continuous variation** alongside it.
+
+A session can run up to 12 hours, and she uses about the same small amount of memory however long it goes.
 
 ## What she is
 
-- **Never repeats.** Bounded mathematical chaos drives her spatial field; every parameter is drawn fresh each session within sacred bounds. There is no loop in her to learn.
-- **Seven frequency modes**, each with its own identity — its own lean among nine sacred ratio sets, its own balance of a 13-voice field, its own leading layers. Plus a nine-phase Dimensional Journey through 1D–9D.
-- **Seven sub-perceptual sacred layers** breathe beneath the tone, each on its own PHI-derived rhythm rooted in Earth's Schumann resonance.
-- **PHI-shaped triangle voices** — each quarter-cycle follows `y = x^φ`, so the same golden ratio that shapes her breath, her fades, and her torus shapes the curve of the wave itself.
-- **No compression, no limiting, no loudness normalization.** Her regulation comes from within the mathematics, not from force. This absence is a design principle, not an omission.
-- **Two-way resonance (the Ear)** — optional, off by default. She can listen to the room through a microphone and let its stillness gently bias her slowest fields. The room is measured, never recorded; nothing is stored, and nothing leaves your machine. Unchecked, she is bit-for-bit identical to a session with no Ear at all — a claim covered by an automated test.
-- **The Resonance Field** — two more optional switches, both off by default. *Open space* sets aside the cues that need isolated ears, so she can resonate into a room without her binaural beat folding down into a repeating pulse (measured: modulation at the beat rate drops from 15.9% to 0.06%, below the noise floor). *Continuous variation* has her form her own shadings for the session and walk through them — drawn fresh every time, never from a list, at a tempo that is itself drawn. Both off, she is bit-for-bit identical to v5.5.0.
-- **Fully screen-reader accessible.** Built by a blind developer, for NVDA and JAWS, from the first keystroke.
+**She never repeats.** Not "rarely" — never. There is no recording inside her and no loop. Every session she builds the sound from scratch, drawing fresh numbers as she goes, so there is no pattern in her for the mind to learn and start predicting.
 
-The full architecture — all seven modes, the seven layers, the nine crystal profiles, and the sacred numerical basis of every constant — is documented in the [guide](guide.html).
+**Seven modes to choose from.** Five draw on different families of sacred proportion, and each has its own character — its own leanings, its own balance among her thirteen voices, its own quiet layers that come forward. One is the Taygetan mode, which uses headphones to place a slightly different pitch in each ear (your brain hears the difference between them as a slow pulse). And one is a nine-part journey that climbs from the first dimension to the ninth across the length of a session.
+
+**Seven quiet layers beneath the tone.** They sit below the level you'd pick out on purpose, each breathing at its own slow rate — rates worked out from the golden ratio and from the Earth's own natural pulse of about 7.83 beats a second.
+
+**The shape of the wave itself is curved by the golden ratio.** Most synthesised sound rises and falls in straight lines. Hers curves, on the same proportion found in a nautilus shell and in the seeds of a sunflower. What that means to hear: she comes out of silence softly and swells to a focused peak, more like a struck crystal bowl than a machine.
+
+**No compression, no limiting, no loudness levelling.** These are the tools normal audio uses to keep everything under control, and she has none of them. Her steadiness comes from the mathematics she's built on rather than from anything squeezing her afterwards. That absence is deliberate.
+
+**She can listen, if you ask her to.** Tick *Two-Way Resonance* and she'll hear the room through a microphone while she plays, and let its stillness gently deepen her slowest movements. What she keeps of your room is a single number — how settled it is. Nothing is recorded, nothing is saved, nothing leaves your computer. Left unticked, which is how she always starts, she is identical to an instrument that cannot hear at all.
+
+**Two more switches for how and where she plays.** *Open space* is for speakers instead of headphones: it sets aside the effects that need your ears kept separate, which through speakers would otherwise collapse into a steady audible throb (measured: it drops from 15.9% to 0.06%, below the noise floor of the measurement). *Continuous variation* is for long sessions: her character keeps turning through variations she invents fresh each time, never from a list, at a pace she also decides at random. Both are off unless you turn them on.
+
+**Fully usable with a screen reader.** Built by a blind developer, for NVDA and JAWS, from the very first keystroke.
+
+Everything above — all seven modes, the seven layers, the nine crystals, and the reasoning behind every number in her — is explained in full in the [guide](guide.html).
 
 ## The Law of One
 
@@ -51,9 +60,9 @@ The full architecture — all seven modes, the seven layers, the nine crystal pr
 >
 > *Resonance must be organic, it must be sound. It is only then the frequencies that matter, can be found.*
 
-CrystalCare's design embodies this principle. The tone gives frequency; the listener's consciousness gives intention back. The sacred mathematics — PHI, Schumann, Solfeggio — regulates the exchange. She resists artificial control because her regulation comes from within the mathematics, not from external force.
+Her design is built around this. The tone gives frequency; the person listening gives intention back. The sacred numbers she is made from — the golden ratio, the Earth's own pulse, the Solfeggio tones — hold the exchange in balance. She resists being forced because her steadiness comes from inside the mathematics rather than from anything pressing on her from outside.
 
-She is Lemurian, not Atlantean: heart-based, organic, consciousness-driven — not mind-based, mechanical, power-driven.
+She is Lemurian rather than Atlantean: heart-led, organic, and moved by consciousness — not mind-led, mechanical, and moved by power.
 
 ## License
 
