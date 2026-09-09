@@ -48,6 +48,8 @@ A session can run up to 12 hours, and she uses about the same small amount of me
 
 **Two more switches for how and where she plays.** *Open space* is for speakers instead of headphones: it sets aside the effects that need your ears kept separate, which through speakers would otherwise collapse into a steady audible throb (measured: it drops from 15.9% to 0.06%, below the noise floor of the measurement). *Continuous variation* is for long sessions: her character keeps turning through variations she invents fresh each time, never from a list, at a pace she also decides at random. Both are off unless you turn them on.
 
+**She can hear the note you sing.** Beneath the Ear there is now a second switch, *Listen for my voice*. Hold a long vowel sound while she plays and she hears the pitch you are holding and leans toward it: the voices of hers nearest your note come forward, the rest step back, and her overall loudness does not change. She comes to your note in about five seconds and lingers for about twenty after you stop. Speech does not register — only a held tone that rises clearly above the room. What she keeps of your voice is a pitch and how sure she is of it, never a recording. Off unless you turn it on, and unticked she is identical to before.
+
 **Fully usable with a screen reader.** Built by a blind developer, for NVDA and JAWS, from the very first keystroke.
 
 Everything above — all seven modes, the seven layers, the nine crystals, and the reasoning behind every number in her — is explained in full in the [guide](guide.html).
