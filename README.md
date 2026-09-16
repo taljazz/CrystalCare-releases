@@ -48,7 +48,7 @@ A session can run up to 12 hours, and she uses about the same small amount of me
 
 **She moves as one.** Her pitch, her breathing and her stereo movement draw on one shared field of 256 slow oscillators that nudge one another and keep a short memory of how they have moved. The whole tone drifts in pitch together, by at most a fifth of a semitone; her breathing and her stereo image follow the same field. It starts afresh every session, cannot be replayed, and has no switch, by design.
 
-**She is quiet, on purpose.** Since the version with the integrated motion, the whole mix leaves her about 6 decibels lower than v5.13 — one fixed reduction, exactly one half, so the field has room to move. Turn up rather than expecting her to push.
+**She is quiet, on purpose.** Since the version with the integrated motion, the whole mix leaves her about 12 decibels lower than before — one fixed reduction, so the field has room to move. Turn up rather than expecting her to push.
 
 **Saved files are exact.** Save as WAV writes 32-bit float files: her samples exactly as computed, at their own level, twice the size of the old ones and sometimes quieter than older exports, which were raised to their peak.
 
