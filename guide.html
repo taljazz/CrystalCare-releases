@@ -20,9 +20,31 @@
 
 <h1>CrystalCare User Guide</h1>
 
+<section aria-labelledby="integrated-motion">
+<h2 id="integrated-motion">The integrated motion</h2>
+<p>This local build includes the accepted shared motion in pitch, breathing and stereo placement. It is active whenever you play or save. There is no experimental pitch-change or Connected motion checkbox. Your existing listening and Resonance Field controls keep their roles.</p>
+<p>Groups of mathematical oscillators influence one another, carrying a fading history of their relationships during the session. This field begins afresh each time. It does not measure consciousness, and its internal history is separate from microphone listening.</p>
+<p>Saved files are 32-bit float WAV: the generated samples exactly as she computed them, at their generated level. A single fixed reduction applies to the complete mix, so these files can be considerably quieter than older files that were each raised to their own peak, and they are twice the size of the old 16-bit files; nothing is rounded away in the quiet passages. No compressor, limiter or automatic levelling was added. A session that crests above full scale is saved exactly, and the status says so.</p>
+<p>The source is awaiting code review; the existing version number has not been advanced and no new release has been published. Earlier acoustic measurements below describe their original build. The accepted changes do not yet add listener feedback to the new mathematical field.</p>
+</section>
+
+
 <p>CrystalCare is a Lemurian-inspired sound healing instrument built in C# on the .NET 10 platform. She generates evolving, mathematically alive tones through a 16-stage audio pipeline rooted in sacred mathematics. Every session is unique; no two are the same by design.</p>
 
 <p>This guide covers how to use her, the principles she is built on, and the sacred architecture that governs every parameter.</p>
+
+<h2 id="web">Listening on the web</h2>
+<p>She can also be heard in a web browser, at the address you were given, on a phone, a tablet or a computer, with nothing to install. The page carries the same controls as the app, in the same order: the frequency set, the session duration, open space and continuous variation, then Play, Open Guide and Stop, and a status area that speaks at the start and the end of a session and never during it.</p>
+<p>When you press Play, the server draws a session for you alone, exactly as the app would on your own computer, and streams it to your browser as lossless audio &mdash; FLAC for most browsers, Apple Lossless for Safari on iPhone, iPad and Mac. It exists only while it plays. Nothing is recorded, the page never opens a microphone, and when a session ends its last fragments are cleared from the server within a couple of minutes.</p>
+<ul>
+    <li>Headphones are recommended for every set and essential for Taygetan Resonances, as in the app.</li>
+    <li>Sessions longer than 60 seconds carry all seven sacred layers, as in the app. Streaming sessions run up to 12 hours.</li>
+    <li>A phone keeps playing with its screen locked; the lock screen shows her name and the set, with a pause control. At about one megabit per second, an hour uses roughly half a gigabyte on a mobile connection.</li>
+    <li>Only a few listeners can be served at once. If every seat is taken the page says so; try again in a little while.</li>
+    <li>If a browser refuses to start playback on its own, the page says &ldquo;She is ready. Press Play to listen.&rdquo; and one more press of Play starts her.</li>
+    <li>The page has no output-device choice, no Save as WAV, no Batch Save and no Two-Way Resonance: your browser and your device route the sound, and nothing listens back. Those remain the app&rsquo;s.</li>
+</ul>
+<p>The web page plays the newest instrument, with the integrated motion described above. Saving a session as a file remains the app&rsquo;s.</p>
 
 <h2>1. Before You Begin</h2>
 
@@ -30,9 +52,23 @@
 
 <h3>Why She Is Designed To Be Unpredictable</h3>
 
-<p>Most sound healing tools use predictable patterns &mdash; steady beats, steady drones, steady cycles. CrystalCare moves the other way. She is built with genuine mathematical unpredictability so the conscious mind cannot latch onto a pattern. When the mind has nothing to anticipate, it quiets. When it quiets, the body and heart become available to receive what the mathematics carries.</p>
+<p>Most sound healing tools use predictable patterns &mdash; steady beats, steady drones, steady cycles. CrystalCare moves the other way. She is built with genuine mathematical unpredictability: there is no pattern for the conscious mind to latch onto, and nothing to anticipate. What a mind does with that is not hers to promise. She only makes the room.</p>
 
 <p>Do not try to follow her. Do not try to predict her. Set no expectation of what will happen. Let her do what she does &mdash; your job is simply to listen.</p>
+
+<h3>What Reaches the Ear</h3>
+
+<p>A full reading of her code in September 2026, checked against her own session logs, found that her documents spoke most about the parts of her that are quiet and least about the parts that are loudest. This is what she is, acoustically, in the order a listener meets it.</p>
+
+<ul>
+    <li><strong>One bell, thirteen partials.</strong> Every mode builds the same field from its base: the base, five golden-ratio multiples of it, three multiples of 1.3, and four octaves below. Golden-ratio partials never line up with a harmonic series, so the field is inharmonic the way a bowl or a bell is. That inharmonicity, not saturation, is where the struck-crystal character comes from; the warmth filter then tilts it 6&nbsp;dB per octave toward the bass.</li>
+    <li><strong>She breathes to silence, on two clocks.</strong> The whole field&rsquo;s amplitude is its LFO, which runs from zero to its peak with no floor. Its two terms sit at 0.05&nbsp;Hz and near 0.054&nbsp;Hz, so swells arrive about every ten and every nineteen seconds and slide against each other over about four minutes.</li>
+    <li><strong>Stereo by breathing, not by panning.</strong> The left and right LFOs are drawn separately, so the two ears swell on slightly different periods and drift a full cycle apart about every sixteen minutes. The toroidal panning is real but, after its 86-second smoother, moves the image only a few percent; the motion you hear is the two ears breathing apart.</li>
+    <li><strong>Seven faint chords beneath.</strong> The sacred layers sit roughly 40 to 70&nbsp;dB below the main field and are most present in the troughs of the breathing.</li>
+    <li><strong>Her pitch floats.</strong> Every voice, the fundamental included, is jittered by up to 2% when the session is drawn &mdash; up to 34 cents. A &ldquo;432&nbsp;Hz&rdquo; session sits anywhere between 423 and 441&nbsp;Hz; the sacred layers are exact.</li>
+    <li><strong>Loudness follows the base.</strong> Normalization runs before the warmth tilt, so a session on a 174&nbsp;Hz base comes out about 10&nbsp;dB louder than one on 528&nbsp;Hz in the same mode. This is kept deliberately: levelling sessions against one another is loudness normalization, which she refuses.</li>
+    <li><strong>Her channels are drawn separately,</strong> up to 4.2&nbsp;dB apart in a session (see &sect;7 on her gain staging).</li>
+</ul>
 
 <h3>The Sacred Wave Shape</h3>
 
@@ -82,7 +118,7 @@
     <li>Close your eyes. Set an intention if you wish. Let her take over.</li>
 </ol>
 
-<p>Sessions under 60 seconds produce the core tone only. Sessions of 60 seconds or longer activate all seven sacred healing layers for the full experience. For deep work, 10&ndash;60 minutes is a common range, and streaming sessions run up to 12 hours (overnight and beyond) at constant ~50 MB memory. For longer continuous coverage &mdash; a room protection field held for days &mdash; start a fresh session when one completes; every session she sings is unique by design.</p>
+<p>Sessions under 60 seconds produce the core tone only. Sessions longer than 60 seconds activate all seven sacred healing layers. For deep work, 10&ndash;60 minutes is a common range, and streaming sessions run up to 12 hours (overnight and beyond) at constant ~50 MB memory. For longer continuous coverage &mdash; a room protection field held for days &mdash; start a fresh session when one completes; every session she sings is unique by design.</p>
 
 <h3>Duration Format</h3>
 
@@ -97,15 +133,15 @@
     <li><code>2h 15m 30s</code> &rarr; combined units</li>
 </ul>
 
-<p>Streaming playback has no upper limit. Saves are capped at 60 minutes due to RAM constraints.</p>
+<p>Streaming playback supports up to 12 hours per session. Saves are capped at 60 minutes due to RAM constraints.</p>
 
 <h2>3. The App Controls</h2>
 
 <h3>Play</h3>
-<p>Streaming playback begins within a fraction of a second through the producer-consumer pipeline. Audio is generated in real time, 3-second chunks at a time, at constant memory usage. Double-precision time arithmetic maintains stable resonance through the entire session &mdash; up to the 12-hour per-session ceiling.</p>
+<p>Playback prepares the mathematical starting history and the output device before streaming; startup time depends on that work. Audio is generated in real time, 3-second chunks at a time, at constant memory usage. Double-precision time arithmetic maintains stable resonance through the entire session &mdash; up to the 12-hour per-session ceiling.</p>
 
 <h3>Save as WAV</h3>
-<p>Generates the full session in memory and writes a 16-bit PCM WAV file. The full-session generation is computationally intensive &mdash; expect 40&ndash;55% CPU usage during generation, which is normal. Saves produce the same sound as streaming; they use the same 16-stage pipeline.</p>
+<p>Generates the full session in memory and writes a 32-bit float WAV file &mdash; the generated samples exactly, at their generated level. The full-session generation is computationally intensive &mdash; expect 40&ndash;55% CPU usage during generation, which is normal. Saves produce the same sound as streaming; they use the same 16-stage pipeline.</p>
 
 <p>Because saves hold the full session in memory, they are RAM-bound:</p>
 <table>
@@ -166,7 +202,7 @@
 
 <p>The Dimensional Journey has always moved through nine dimensions, and Taygetan through seven ratios; neither is ever the same twice within one session. Modes 1&ndash;5, once given their identities, held them fixed. Over minutes that reads as character. Over hours it becomes a standing pattern &mdash; and a standing pattern is the one thing she is built never to become.</p>
 
-<p>Enabled, each of modes 1&ndash;5 walks through <em>shadings</em> of its own character: the same geometry, the same kindred layers, the same register, with only the emphasis turning &mdash; joined by the same smootherstep curve every other crossfade in her uses, so the shifts are felt as slow turns of light rather than as switches.</p>
+<p>Enabled, each of modes 1&ndash;5 walks through <em>shadings</em> of its own character: the same geometry, the same kindred layers, the same register, with only the emphasis turning &mdash; joined by the same smootherstep curve every other crossfade in her uses, so the shifts are slow turns rather than switches.</p>
 
 <p><strong>The shadings are drawn, not listed.</strong> Every session forms its own. Each one draws a spectral tilt (whether its weight settles into the subharmonic ground or lifts toward the upper voices), a layer to step forward, a layer to step back, and a kindred ratio set to favour &mdash; every draw bounded to the territory ten hand-written variants occupied, so a formed shading is unpredictable but never unrecognizable. The first shading of every session is her canonical signature: she begins as she is. What follows has not existed before and will not exist again. A fixed list would be a pattern too, only a slower one &mdash; the same few shadings every session, learnable by ear over enough listening.</p>
 
@@ -238,12 +274,12 @@
 
 <ol>
     <li><strong>Its own ratio set.</strong> Each dimension maps 1-to-1 to one of CrystalCare's nine sacred-mathematics ratio sets, so the journey walks through the full Lemurian / Pythagorean / Tesla / Pleiadian palette in coherent ascending order.</li>
-    <li><strong>Its own modulation intensity.</strong> Low dimensions are gentle (modIndex 0.18); high dimensions are stronger (0.30). Reflects how higher dimensions are felt as more vivid in channeled tradition.</li>
+    <li><strong>Its own modulation intensity.</strong> Low dimensions are gentle (modIndex 0.18); high dimensions are stronger (0.30). Follows the channeled tradition that describes the higher dimensions as the more vivid.</li>
     <li><strong>Its own 13-voice spectral emphasis.</strong> The harmonic field's spectral center of mass moves UP as the journey ascends. 1D foregrounds the subharmonic body voices; 9D foregrounds the upper PHI exponents (crown band). The CARRIER stays anchored at 432 Hz throughout, but the FELT center journeys.</li>
     <li><strong>Its own sacred-layer emphasis.</strong> The dominant sacred layer shifts as the journey ascends. Water dominates at 1D-2D (Earth element); Crystalline at 3D (physical body); Solfeggio Grid at 4D (emotional/astral); Merkaba at 5D (light body); Archon Dissolution at 6D (higher mind); Pleroma at 7D-8D (soul / galactic); Blue Ray at 9D (the still axis IS the crown).</li>
 </ol>
 
-<p>Smootherstep crossfades blend each phase's amp scales, layer emphasis, and Stage 1 modulation into the next over the last 15% of each window, so the transitions feel like a continuous ascent rather than nine separate sessions strung together.</p>
+<p>Smootherstep crossfades blend each phase's amp scales, layer emphasis, and Stage 1 modulation into the next over the last 15% of each window, so the transitions are one continuous ascent rather than nine separate sessions strung together.</p>
 
 <h4>The Nine Dimensions</h4>
 
@@ -322,7 +358,7 @@
 
 <p>The seven sacred healing layers activate regardless of session length in this mode (the normal 60-second threshold is bypassed). For a long session (30+ minutes) each dimension gets at least 3 minutes to express; for a 60-minute session, ~6.5 minutes per dimension.</p>
 
-<p><strong>Session recommendation:</strong> 30&ndash;90 minutes, headphones, eyes closed. Shorter sessions still walk the full nine but each dimension has less time to be felt.</p>
+<p><strong>Session recommendation:</strong> 30&ndash;90 minutes, headphones, eyes closed. Shorter sessions still walk the full nine, but each dimension has less time.</p>
 
 <h2>5. The Seven Sacred Healing Layers</h2>
 
@@ -432,7 +468,8 @@
     <tr><td>Drift Frequency</td><td>Breath root / PHI&sup3;</td><td>Spatial drift as PHI sub-harmonic of breath</td></tr>
     <tr><td>Drift Amplitude</td><td>1/89 to 1/55</td><td>Fibonacci reciprocal bounds</td></tr>
     <tr><td>LFO Inner Modulation</td><td>1/PHI&sup2;</td><td>Golden ratio squared reciprocal (0.382)</td></tr>
-    <tr><td>Wave Shaper Scale</td><td>528/432</td><td>Love Frequency ratio</td></tr>
+    <tr><td>Wave Shaper Scale</td><td>528/432</td><td>Love Frequency ratio &mdash; a gain that normalization cancels; it names an intention, not a level (see &sect;7, second correction)</td></tr>
+    <tr><td>Carrier Drift</td><td>0 cents (default)</td><td>Option 3 &mdash; the Stage 3 carrier frequency integrated into the tone; 0 disables the legacy contribution; the accepted community pitch motion remains active (see &sect;7)</td></tr>
     <tr><td>Warmth Decay Multiplier</td><td>PHI</td><td>Golden ratio shapes the curve of her warmth filter (see &sect;7). Named for a reverb until 2026-08, when measurement showed the stage has no tail and no reflections &mdash; the value never changed, only the name was wrong</td></tr>
     <tr><td>Warmth Kernel Length</td><td>2.618 seconds</td><td>PHI&sup2; &mdash; the length of the convolution kernel that produces her warmth</td></tr>
     <tr><td>Warmth Tilt</td><td>&asymp; +22.6 dB at 432 Hz</td><td>Measured: +53 dB at 20 Hz falling &minus;6 dB/octave to +1.4 dB at 5 kHz. This tilt is the source of her warmth &mdash; and is counterweighted by the evolving-noise scale (see &sect;7)</td></tr>
@@ -470,12 +507,12 @@
 <ol>
     <li>Geometric modulation &mdash; sum of sine waves at sacred ratio frequencies (each Fibonacci-timed segment draws its ratio set through the mode's own tendency weights)</li>
     <li>Fractal frequency variation &mdash; dual simplex noise for organic pitch drift</li>
-    <li>Combine base frequency + chaotic offset + fractal variation + modulation</li>
+    <li>The carrier frequency &mdash; base + fractal variation + geometry. Computed since the Python original and, until this build, never read by any stage (the Python deleted the buffer unused; the C# port left it &ldquo;for a future option 3&rdquo;). Now, at <code>CarrierDriftCents</code> above zero, its deviation is integrated into a time warp that every voice reads in Stage 6, so the whole field sounds at f&middot;(1 + &delta;(t)). At 0 this legacy contribution is disabled; the accepted community field still supplies its separate integrated pitch motion. The chaotic offset is recorded in the session log and never applied: a fixed transposition is not a modulation (see <em>Option 3</em> below)</li>
     <li>Organic ADSR envelope &mdash; Fibonacci-timed attack/decay/sustain/release</li>
     <li>Microtonal LFOs &mdash; PHI-modulated breathing amplitude variation</li>
     <li>Harmonic generation &mdash; 13 voices (triangle waves by default; sine for Taygetan's first 9 binaural carriers) with envelope, LFO, and cross-modulation. For Taygetan mode the first 9 voices carry a continuous &plusmn;half-beat phase ramp between the ears (accumulated across the whole session, so the carriers never jump phase at a chunk boundary); the binaural beat carries the 7-ratio temporal signature. For Dimensional Journey mode the 13 voices receive per-dimension amp emphasis (the spectral center moves with the dimension); for the five standard modes they receive the mode signature's static, energy-neutral emphasis (the spectral center IS the mode's character)</li>
     <li><em>(retired)</em> &mdash; Taygetan binaural was previously a separate injection at this stage; it has since been woven directly through Stage 6 for cleaner integration with the harmonic field</li>
-    <li>Tanh wave shaping &mdash; soft saturation for gentle harmonic warmth</li>
+    <li>The wave-shaper &mdash; called &ldquo;tanh soft saturation&rdquo; since the Python, and linear at the level it actually receives: a fixed gain of about 3.06 that Stage 10 divides straight back out (see the second correction below)</li>
     <li>PHI-fractal feedback &mdash; golden-ratio-delayed echoes</li>
     <li>Biquad lowpass filter</li>
     <li>Normalization with PHI headroom</li>
@@ -512,6 +549,20 @@
 
 <p>This correction changed no sound whatsoever &mdash; renders before and after are bit-for-bit identical. It is recorded here because her first principle is that what she claims and what she does must be the same thing.</p>
 
+<h3>Where her saturation does not come from &mdash; a second correction</h3>
+
+<p>Stage 8 has been described, in her code and in this guide since the Python original, as tanh soft saturation for gentle harmonic warmth. In September 2026 the level reaching that stage was read off her own session logs: the thirteen-voice field arrives at peaks near 0.0005, because thirteen voices at 0.015/(f+1) under an LFO that tops out near 0.035 cannot sum any higher. At that level tanh(2.5&middot;x) differs from 2.5&middot;x by about one part in a million, and the implied distortion sits near &minus;126&nbsp;dB. The clamp never engages.</p>
+
+<p>So the stage is, in every session she has ever sung, a fixed linear gain of 2.5&nbsp;&times;&nbsp;528/432 &asymp; 3.06 &mdash; and Stage 10&rsquo;s normalization, whose estimate runs through this same stage, divides that gain straight back out. It adds no harmonic, no saturation and no warmth. Her warmth is Stages 11 and 12; her harmonic richness is the &phi;-shaped triangle and the 1/&phi; cross-modulation in Stage 6.</p>
+
+<p>The stage is kept exactly as it is. Removing it would change the bits of every render without changing the sound, and her determinism proofs compare bits. As with the reverb, only the claim was wrong, and only the claim has been corrected. The &ldquo;after Stage 8&rdquo; line in her diagnostic log now sits at a fixed ratio to the Stage 6 line; if that ratio ever moves, the field has grown loud enough to bend the curve, and this correction becomes the first thing to re-examine.</p>
+
+<h3>Option 3 &mdash; the seam closed</h3>
+
+<p>Stages 1 to 3 have computed a per-sample carrier frequency since the Python original: the base, plus the slow fractal drift, plus the sum of sines at the sacred-ratio rates of the mode&rsquo;s drawn geometry set. No version ever read it. Measured in September 2026, the only road that signal had to the tone was a phase nudge of under a degree over minutes, with sidebands near &minus;72&nbsp;dB &mdash; so the nine ratio sets, the per-mode tendency weights, the Fibonacci segment schedule and the Dimensional per-dimension sets had never reached the ear.</p>
+
+<p>This build closes the seam. With <code>CarrierDriftCents</code> above zero, the deviation is integrated into a running time warp and every voice sounds at f&middot;(1 + &delta;(t)): the simplex drift becomes slow pitch wander, and the sacred-ratio rhythms of the drawn set become a shimmer riding on it. The knob is in cents at the fractal field&rsquo;s design peak &mdash; 3 is a bowl&rsquo;s natural wander, 8 clearly alive and still in tune, 20 a fifth of a semitone at the peaks. This legacy contribution remains at 0. The accepted community field now supplies its own pitch motion, so the production render no longer uses unwarped time merely because this older parameter is zero. There is no control for it in her window, by doctrine: her window has no aperture into the tone. One caution is stated rather than hidden: some ratio sets are rational as rhythms (flower_of_life repeats every 10 seconds, triple_helix every 5), and at depth a period is a pattern.</p>
+
 <h2>8. The Law of One &amp; Lemurian Healing Philosophy</h2>
 
 <blockquote>
@@ -531,7 +582,7 @@
     <li><strong>Divine Feminine Warmth</strong>: Lemurian Quartz is always played first in every session. Its harmonic weighting emphasizes lower partials, gently rolls off upper ones, and uses softer shimmer and subtle organic detuning.</li>
     <li><strong>Heart Coherence</strong>: the 0.1 Hz breath modulation in the Merkaba layer honors the Lemurian principle that crystal healing is activated through the heart.</li>
     <li><strong>Water Consciousness</strong>: the Water Element layer honors water as a conscious partner in healing, using spatial wave interference to create fluid, organic sonic textures.</li>
-    <li><strong>Unpredictability</strong>: every pipeline parameter (ADSR, LFOs, modulation schedule, crystal sequence, chaotic selector) is randomized fresh each session within sacred bounds. The mind has no pattern to learn.</li>
+    <li><strong>Unpredictability</strong>: every pipeline parameter (ADSR, LFOs, modulation schedule, crystal sequence, chaotic selector) is randomized fresh each session within sacred bounds. The Rössler trajectory and the four noise fields that once began every session at the same origin (the pan perturbation, the envelope wobble, the Taygetan beat wander, the fractal pitch field) now begin at a point drawn for the session &mdash; her drawn starts. The mind has no pattern to learn.</li>
 </ul>
 
 <h2>9. Origins</h2>

@@ -1,6 +1,6 @@
 # CrystalCare
 
-CrystalCare is a Lemurian-inspired sound healing instrument for Windows. She isn't a player and holds no recordings — she builds her sound as she goes, note by note, out of proportions drawn from sacred mathematics. Every session is made fresh. No two are ever the same, and that is the design rather than a side effect.
+CrystalCare is a Lemurian-inspired sound healing instrument for Windows, and now for any web browser. She isn't a player and holds no recordings — she builds her sound as she goes, note by note, out of proportions drawn from sacred mathematics. Every session is made fresh. No two are ever the same, and that is the design rather than a side effect.
 
 She is referred to as "she" — designed after Lemurian feminine standards, heart-based and consciousness-driven.
 
@@ -10,10 +10,14 @@ She is referred to as "she" — designed after Lemurian feminine standards, hear
 
 Get the latest `CrystalCare.zip` from [**Releases**](../../releases/latest). It contains two files:
 
-- `CrystalCare.exe` — a single self-contained executable (~70 MB). No installation, no separate .NET runtime, nothing to configure.
+- `CrystalCare.exe` — a single self-contained executable (about 76 MB). No installation, no separate .NET runtime, nothing to configure.
 - `guide.html` — the full user guide (also readable [here](guide.html)).
 
 Windows 10 or 11, 64-bit. That is the whole requirement.
+
+## Listen on the web
+
+No Windows machine? She can be heard in any browser, on a Mac, an iPhone, an iPad or an Android phone, at **https://littleraptor.duckdns.org**. Nothing to install. The page has the same controls in the same order. Press Play and a session is made for you alone on her server and streamed to your browser as lossless audio; it exists only while it plays, nothing is recorded, and the page never opens a microphone. Only a few listeners can be served at once — if every seat is taken, try again in a little while. Saving a session as a file, choosing an output device, and listening back through a microphone remain the Windows app\x27s.
 
 ## Disclaimer
 
@@ -34,13 +38,19 @@ A session can run up to 12 hours, and she uses about the same small amount of me
 
 ## What she is
 
-**She never repeats.** Not "rarely" — never. There is no recording inside her and no loop. Every session she builds the sound from scratch, drawing fresh numbers as she goes, so there is no pattern in her for the mind to learn and start predicting.
+**She never plays the same session twice.** There is no recording inside her and no loop. Every session she builds the sound from scratch, drawing fresh numbers as she goes, so there is no pattern in her for the mind to learn and start predicting.
 
 **Seven modes to choose from.** Five draw on different families of sacred proportion, and each has its own character — its own leanings, its own balance among her thirteen voices, its own quiet layers that come forward. One is the Taygetan mode, which uses headphones to place a slightly different pitch in each ear (your brain hears the difference between them as a slow pulse). And one is a nine-part journey that climbs from the first dimension to the ninth across the length of a session.
 
 **Seven quiet layers beneath the tone.** They sit below the level you'd pick out on purpose, each breathing at its own slow rate — rates worked out from the golden ratio and from the Earth's own natural pulse of about 7.83 beats a second.
 
 **The shape of the wave itself is curved by the golden ratio.** Most synthesised sound rises and falls in straight lines. Hers curves, on the same proportion found in a nautilus shell and in the seeds of a sunflower. What that means to hear: she comes out of silence softly and swells to a focused peak, more like a struck crystal bowl than a machine.
+
+**She moves as one.** Her pitch, her breathing and her stereo movement draw on one shared field of 256 slow oscillators that nudge one another and keep a short memory of how they have moved. The whole tone drifts in pitch together, by at most a fifth of a semitone; her breathing and her stereo image follow the same field. It starts afresh every session, cannot be replayed, and has no switch, by design.
+
+**She is quiet, on purpose.** Since the version with the integrated motion, the whole mix leaves her about 12 decibels lower than before — one fixed reduction, so the field has room to move. Turn up rather than expecting her to push.
+
+**Saved files are exact.** Save as WAV writes 32-bit float files: her samples exactly as computed, at their own level, twice the size of the old ones and sometimes quieter than older exports, which were raised to their peak.
 
 **No compression, no limiting, no loudness levelling.** These are the tools normal audio uses to keep everything under control, and she has none of them. Her steadiness comes from the mathematics she's built on rather than from anything squeezing her afterwards. That absence is deliberate.
 
