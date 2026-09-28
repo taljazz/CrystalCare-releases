@@ -17,7 +17,7 @@ Windows 10 or 11, 64-bit. That is the whole requirement.
 
 ## Listen on the web
 
-No Windows machine? She can be heard in any browser, on a Mac, an iPhone, an iPad or an Android phone, at **https://littleraptor.duckdns.org**. Nothing to install. The page has the same controls in the same order. Press Play and a session is made for you alone on her server and streamed to your browser as lossless audio; it exists only while it plays, nothing is recorded, and the page never opens a microphone. Only a few listeners can be served at once — if every seat is taken, try again in a little while. Saving a session as a file, choosing an output device, and listening back through a microphone remain the Windows app\x27s.
+No Windows machine? She can be heard in any browser, on a Mac, an iPhone, an iPad or an Android phone, at **https://littleraptor.duckdns.org**. Nothing to install. The page has the same controls in the same order. Press Play and a session is made for you alone on her server and streamed to your browser as lossless audio; it exists only while it plays, nothing is recorded, and the page never opens a microphone. Only a few listeners can be served at once — if every seat is taken, try again in a little while. Saving a session as a file, choosing an output device, and listening back through a microphone remain the Windows app's.
 
 ## Disclaimer
 
@@ -47,6 +47,8 @@ A session can run up to 12 hours, and she uses about the same small amount of me
 **The shape of the wave itself is curved by the golden ratio.** Most synthesised sound rises and falls in straight lines. Hers curves, on the same proportion found in a nautilus shell and in the seeds of a sunflower. What that means to hear: she comes out of silence softly and swells to a focused peak, more like a struck crystal bowl than a machine.
 
 **She moves as one.** Her pitch, her breathing and her stereo movement draw on one shared field of 256 slow oscillators that nudge one another and keep a short memory of how they have moved. The whole tone drifts in pitch together, by at most a fifth of a semitone; her breathing and her stereo image follow the same field. It starts afresh every session, cannot be replayed, and has no switch, by design.
+
+**Her voices breathe on their own (new in v8.0).** Until now all thirteen of her voices rose and fell together, so the colour of her sound stayed the same while its loudness swelled and faded. Now each voice also rises and recedes by itself, following one of eight groups within that same shared field: when a group's oscillators fall into step, its voices come forward; when they drift apart, its voices step back. The groups gather and scatter on their own, over tens of seconds, so the balance among her voices — and with it the colour of her sound — keeps changing. When one voice comes forward the others make room, so her overall level stays where it was (measured over thirty-minute sessions: within half a decibel). Her shared breathing is unchanged, the deepest voices below hearing stay still, Taygetan keeps its voices together, and when you sing to her the voices settle so her lean toward your note stays clear. Like the rest of her motion, it is always on, with no switch. The version before it, v5.21.1, stays available on the Releases page.
 
 **She is quiet, on purpose.** Since the version with the integrated motion, the whole mix leaves her about 6 decibels lower than v5.13 — one fixed reduction, exactly one half, so the field has room to move. Turn up rather than expecting her to push.
 
