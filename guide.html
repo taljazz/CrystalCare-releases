@@ -33,7 +33,7 @@
 <p>Until v8.0 all thirteen of her voices rose and fell together on one shared breath, so the colour of her sound held still while its loudness swelled and faded. Measured, her colour moved by about 1.5&nbsp;dB over a session while her loudness moved by about 10&nbsp;dB.</p>
 <p>Now each voice also rises and recedes on its own. Every session, each voice is joined to one of the eight groups of oscillators in her shared field; five groups carry two voices, and which voices share a group is drawn fresh each time. When a group's oscillators fall into step with one another more than the field as a whole, its voices rise; when they fall out of step, its voices recede. The groups gather and scatter on their own over tens of seconds, so the balance among her voices keeps changing, and the colour of her sound with it. A voice moves by about 5 to 6&nbsp;dB in ordinary moments and by up to about 12&nbsp;dB at the extreme.</p>
 <ul>
-    <li><strong>Nothing is added.</strong> No voice is created and no voice changes pitch; only the balance among the voices she already has turns.</li>
+    <li><strong>Nothing is added.</strong> No voice is created, and the breaths change no voice&rsquo;s pitch (the voice drift of v13.0 does, by a few cents; see <em>Three refinements</em>); only the balance among the voices she already has turns.</li>
     <li><strong>Her level is held.</strong> When one voice rises the others make room, so that neither the combined strength of her voices nor their combined power is ever greater than it would have been without the breaths, measured after her warmth filter, where her level is made. In thirty-minute test sessions her average level stayed within half a decibel of v5.21.1.</li>
     <li><strong>Her shared breath is untouched;</strong> the individual breaths ride on top of it.</li>
     <li><strong>Voices below hearing stay still.</strong> On her lowest bases, the two deepest voices fall under 20&nbsp;Hz and do not breathe.</li>
@@ -41,6 +41,27 @@
     <li><strong>When you sing, she listens first.</strong> With Two-Way Resonance and a voice present, the individual breaths settle toward stillness so her lean toward your note is not blurred.</li>
     <li><strong>Always on, with no switch,</strong> in the app and on the web page alike. The instrument without it is v5.21.1, which remains published.</li>
 </ul>
+</section>
+
+<section aria-labelledby="refinements">
+<h2 id="refinements">Three refinements of her voices (new in v13.0)</h2>
+<p>Each of these began as a measurement of the released sound, and each is always on, with no switch, in the app and on the web page alike. The instrument without them is v8.0, which remains published.</p>
+<h3>Her deepest sound stays above the floor of hearing</h3>
+<p>Her four lowest voices sit at a half, a quarter, an eighth and a sixteenth of her base frequency, and her warmth filter lifts the lowest frequencies the most. On her lowest base (136.10&nbsp;Hz in the Atlantean set) two of those voices fall below 20&nbsp;Hz, the conventional floor of human hearing. Measured on v8.0, what lay below 20&nbsp;Hz there carried more energy than everything that can be heard, and it pushed her peaks 3 to 4&nbsp;dB higher. In half of the thirty-minute test sessions on that base it took her over full scale, the point where a sound card, a 16-bit file or the web stream clips. Her main field now passes through a fixed filter that removes what lies below 20&nbsp;Hz. It is the same in every session and shapes her the way her existing top-end filter does; it does not listen to her or level her.</p>
+<ul>
+    <li>In the eight thirty-minute test sessions on her lowest base, nothing now goes over full scale; her peaks there sit 3 to 4&nbsp;dB lower.</li>
+    <li>Everything from 40&nbsp;Hz upward is unchanged, measured to within a few thousandths of a decibel. Her average level drops on the low bases only because the energy below hearing is gone.</li>
+    <li>Her seven sacred layers are not filtered: their tones built on the Schumann resonance (7.83&nbsp;Hz) are part of their design and stay.</li>
+</ul>
+<h3>Each voice drifts on its own</h3>
+<p>Two of her thirteen voices both sound her base note, each slightly detuned, and each voice&rsquo;s gentle golden-ratio modulation places a faint copy of it exactly where the next voice up her golden ladder sits. Close partials like these beat: the sound swells and dips at the difference between them. Measured on v8.0, those beats held one rate for a whole session; one was a pulse at 4.10&nbsp;Hz that never moved in ten minutes. Now each voice drifts by a few cents on its own, following the same groups in her shared field that her individual breaths follow, so the distances between her voices, and the speed of every beat, keep changing. In one test session two voices that beat at a fixed 11.5&nbsp;Hz now wander between about 10.7 and 12.5&nbsp;Hz.</p>
+<ul>
+    <li>A voice drifts by at most 6 cents either way, and usually by less than 3. The drifts cancel across the thirteen, so her average pitch does not move.</li>
+    <li>When you sing with Two-Way Resonance, the drift settles toward stillness, as the breaths do, so her lean toward your note is not blurred.</li>
+    <li>Taygetan keeps its voices together, as its design requires.</li>
+</ul>
+<h3>Her voices are drawn without folded overtones</h3>
+<p>Each voice has the shape of her golden-ratio triangle wave (see <em>The Sacred Wave Shape</em>), and a shape with sharp peaks carries overtones that run far above the highest frequency her 48&nbsp;kHz audio can hold. Until now those overtones folded back down into her sound as faint tones in tune with nothing, mostly in the deep bass; on Higher Frequencies at 963&nbsp;Hz they reached a level only about 20 to 30&nbsp;dB below her whole sound. Each voice is now built from the same shape with only the overtones that fit below 20&nbsp;kHz, the top of human hearing, so nothing folds back; below that limit each voice keeps exactly the shape it had. Her audio also takes about an eighth less computer time to generate.</p>
 </section>
 
 
@@ -84,6 +105,7 @@
     <li><strong>Loudness follows the base.</strong> Normalization runs before the warmth tilt, so a session on a 174&nbsp;Hz base comes out about 10&nbsp;dB louder than one on 528&nbsp;Hz in the same mode. This is kept deliberately: levelling sessions against one another is loudness normalization, which she refuses.</li>
     <li><strong>Her channels are drawn separately,</strong> up to 4.2&nbsp;dB apart in a session (see &sect;7 on her gain staging).</li>
     <li><strong>Since v8.0 her voices trade places.</strong> The list above was measured before it: then every voice shared one breath and her colour held still. Now each voice also rises and recedes on its own (see <em>Her voices breathe on their own</em>).</li>
+    <li><strong>Since v13.0 her deepest sound, her beats and her overtones are refined.</strong> What lies below 20&nbsp;Hz is removed from her main field, each voice drifts by a few cents so her beats keep changing speed, and her voices carry no overtones that fold back off pitch (see <em>Three refinements of her voices</em>).</li>
 </ul>
 
 <h3>The Sacred Wave Shape</h3>
@@ -533,7 +555,7 @@
     <li>Biquad lowpass filter</li>
     <li>Normalization with PHI headroom</li>
     <li>PHI warmth filter (left) and 12-sample-delayed warmth filter (right); the 12-sample delay is what creates her stereo width</li>
-    <li>Evolving noise layers &mdash; low-frequency modulated Gaussian noise</li>
+    <li>Evolving noise layers &mdash; low-frequency modulated Gaussian noise; then, since v13.0, the subsonic floor: a fixed 20&nbsp;Hz high-pass on the main field (not on the sacred layers)</li>
     <li>Master fade in/out</li>
     <li>Toroidal panning on PHI torus with R&ouml;ssler chaos and simplex perturbation, placed by the constant-power law (L = &radic;2&middot;cos, R = &radic;2&middot;sin &mdash; total acoustic power holds constant at every pan position; no loudness swell as the sound moves off center)</li>
     <li>Master volume, then sacred layers mixed in with golden-angle-spaced toroidal panning through the same constant-power placement, each layer additionally given its full binaural position &mdash; interaural arrival time, head shadow, and the spectral tilt of distance, with the R&ouml;ssler attractor's third axis steering how near or far it orbits (Blue Ray is exempt from all of it: unity gain, dead center, always)</li>
