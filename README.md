@@ -1,6 +1,6 @@
 # CrystalCare
 
-CrystalCare is a Lemurian-inspired sound healing instrument for Windows, and now for any web browser. She isn't a player and holds no recordings — she builds her sound as she goes, note by note, out of proportions drawn from sacred mathematics. Every session is made fresh. No two are ever the same, and that is the design rather than a side effect.
+CrystalCare is a Lemurian-inspired sound healing instrument for Windows, and now for any web browser. She isn't a player: her own sound holds no recordings — she builds it as she goes, note by note, out of proportions drawn from sacred mathematics. Every session is made fresh. No two are ever the same, and that is the design rather than a side effect.
 
 She is referred to as "she" — designed after Lemurian feminine standards, heart-based and consciousness-driven.
 
@@ -10,7 +10,7 @@ She is referred to as "she" — designed after Lemurian feminine standards, hear
 
 Get the latest `CrystalCare.zip` from [**Releases**](../../releases/latest). It contains two files:
 
-- `CrystalCare.exe` — a single self-contained executable (about 76 MB). No installation, no separate .NET runtime, nothing to configure.
+- `CrystalCare.exe` — a single self-contained executable (about 101 MB). No installation, no separate .NET runtime, nothing to configure.
 - `guide.html` — the full user guide (also readable [here](guide.html)).
 
 Windows 10 or 11, 64-bit. That is the whole requirement.
@@ -38,7 +38,7 @@ A session can run up to 12 hours, and she uses about the same small amount of me
 
 ## What she is
 
-**She never plays the same session twice.** There is no recording inside her and no loop. Every session she builds the sound from scratch, drawing fresh numbers as she goes, so there is no pattern in her for the mind to learn and start predicting.
+**She never plays the same session twice.** There is no recording in her own sound and no loop. (The optional ambience is a recording of the natural world that plays beneath her; her own sound is still built fresh.) Every session she builds the sound from scratch, drawing fresh numbers as she goes, so there is no pattern in her for the mind to learn and start predicting.
 
 **Seven modes to choose from.** Five draw on different families of sacred proportion, and each has its own character — its own leanings, its own balance among her thirteen voices, its own quiet layers that come forward. One is the Taygetan mode, which uses headphones to place a slightly different pitch in each ear (your brain hears the difference between them as a slow pulse). And one is a nine-part journey that climbs from the first dimension to the ninth across the length of a session.
 
@@ -49,6 +49,8 @@ A session can run up to 12 hours, and she uses about the same small amount of me
 **She moves as one.** Her pitch, her breathing and her stereo movement draw on one shared field of 256 slow oscillators that nudge one another and keep a short memory of how they have moved. The whole tone drifts in pitch together, by at most a fifth of a semitone; her breathing and her stereo image follow the same field. It starts afresh every session, cannot be replayed, and has no switch, by design.
 
 **Her voices breathe on their own (new in v8.0).** Until now all thirteen of her voices rose and fell together, so the colour of her sound stayed the same while its loudness swelled and faded. Now each voice also rises and recedes by itself, following one of eight groups within that same shared field: when a group's oscillators fall into step, its voices come forward; when they drift apart, its voices step back. The groups gather and scatter on their own, over tens of seconds, so the balance among her voices — and with it the colour of her sound — keeps changing. When one voice comes forward the others make room, so her overall level stays where it was (measured over thirty-minute sessions: within half a decibel). Her shared breathing is unchanged, the deepest voices below hearing stay still, Taygetan keeps its voices together, and when you sing to her the voices settle so her lean toward your note stays clear. Like the rest of her motion, it is always on, with no switch. The version before it, v5.21.1, stays available on the Releases page.
+
+**Ambience, and beginning anew (new in v21.0).** Two new choices, both off every time the app opens; left off, she is exactly as she was in v13.0. *Ambience* places a recording of the natural world beneath her: ocean waves, a light waterfall, a heavy waterfall or a tropical forest. It is the same recording every session, entered at a different moment each time, at one steady level well under her own, rising and fading with her; nothing of her own sound is changed by it. The recordings come from Freesound, each given to the public domain by its recordist: GLM_KG (ocean waves), Antonio_Lai (light waterfall), Tom_Kaszuba (heavy waterfall) and jonasrocha (tropical forest). Thank you to each of them. *Begin anew after each session* follows each session of the length you set with thirty seconds of silence, and then a new session in the same frequency set with everything else drawn fresh, until you press Stop. Both come from something learned by listening to her: unpredictability is not enough; the mind also needs something familiar before it will accept the unpredictable. They are in the Windows app; the web page keeps v13.0 for now. The version before this, v13.0, stays available on the Releases page.
 
 **Three refinements of her voices (new in v13.0).** Each began as a measurement of v8.0, and each is always on, with no switch. *Her deepest sound stays above the floor of hearing:* on her lowest base two of her voices fall below 20 Hz, the usual floor of human hearing, and in v8.0 that unheard sound carried more energy than everything you could hear and sometimes pushed her past full scale, where a sound card or the web stream clips. A fixed filter now removes what lies below 20 Hz from her main tone; in thirty-minute tests on that base she no longer goes past full scale, and everything from 40 Hz up is unchanged. Her quiet layers keep their low Earth-rooted tones. *Each voice drifts on its own:* close voices beat, swelling and dipping at the difference between them, and in v8.0 those beats held one speed for a whole session; now each voice drifts by a few cents (at most 6, usually under 3), following the same groups as her breaths, so the speed of every beat keeps changing while her average pitch stays put. *Her voices carry no folded overtones:* the sharp peaks of her golden-ratio wave carry overtones too high for her audio to hold, which used to fold back into her sound as faint tones in tune with nothing; each voice is now built with only the overtones below 20 kHz, the top of human hearing, and keeps exactly its shape below that. She also takes about an eighth less computer time to generate. The version before this, v8.0, stays available on the Releases page.
 

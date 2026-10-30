@@ -64,6 +64,31 @@
 <p>Each voice has the shape of her golden-ratio triangle wave (see <em>The Sacred Wave Shape</em>), and a shape with sharp peaks carries overtones that run far above the highest frequency her 48&nbsp;kHz audio can hold. Until now those overtones folded back down into her sound as faint tones in tune with nothing, mostly in the deep bass; on Higher Frequencies at 963&nbsp;Hz they reached a level only about 20 to 30&nbsp;dB below her whole sound. Each voice is now built from the same shape with only the overtones that fit below 20&nbsp;kHz, the top of human hearing, so nothing folds back; below that limit each voice keeps exactly the shape it had. Her audio also takes about an eighth less computer time to generate.</p>
 </section>
 
+<section aria-labelledby="ambience">
+<h2 id="ambience">Ambience and beginning anew (new in v21.0)</h2>
+<p>Two additions, both in the Resonance Field group of the window, both off on every launch. They come from something her creator learned by listening: unpredictability is not enough; the mind also needs something familiar before it will accept the unpredictable. Both give her something that stays the same around what keeps changing.</p>
+<h3>Ambience</h3>
+<p>A choice of recording of the natural world beneath her: <strong>None</strong>, <strong>Ocean waves</strong>, <strong>Light waterfall</strong>, <strong>Heavy waterfall</strong> or <strong>Tropical forest</strong>. The Lemurians were deeply connected to the earth.</p>
+<ul>
+    <li><strong>The place is the same; the moment is not.</strong> A chosen ambience is the same recording every session. Only the point where it begins is drawn, fresh each session. It loops with an 8-second crossfade, so there is no seam in the sound.</li>
+    <li><strong>One steady level.</strong> The recording sits at one fixed level, about 6&nbsp;dB under her average, and does not follow her own level, which moves widely from session to session by design. It rises from silence with her and returns to silence with her, on her own fade.</li>
+    <li><strong>Her sound is untouched.</strong> The recording is added after her whole mix. It is not placed, panned, filtered, compressed or levelled, and nothing of hers is changed by it. With None, she is exactly as she was without this feature, bit for bit.</li>
+    <li><strong>Play, Save as WAV and Batch Save</strong> all carry it. Choosing an ambience can add two or three seconds before she begins, while the recording is found at its starting point.</li>
+    <li><strong>Not yet on the web page,</strong> which keeps its current controls for now.</li>
+</ul>
+<table>
+    <tr><th>Ambience</th><th>Recording (Freesound, released under CC0)</th><th>Recordist</th></tr>
+    <tr><td>Ocean waves</td><td>&ldquo;Ocean Lake Sea Shore Waves&rdquo;, a sea shore with gulls now and then</td><td>GLM_KG</td></tr>
+    <tr><td>Light waterfall</td><td>&ldquo;waterfall&rdquo;, Olzai, Sardinia: a mountain fall&rsquo;s bright rush</td><td>Antonio_Lai</td></tr>
+    <tr><td>Heavy waterfall</td><td>&ldquo;Waterfall&rdquo;, a large fall recorded from just above it: a deep roar</td><td>Tom_Kaszuba</td></tr>
+    <tr><td>Tropical forest</td><td>&ldquo;Amazon Forest&rdquo;, Feij&oacute;, Acre, Brazil: three calm minutes of its birds and insects</td><td>jonasrocha</td></tr>
+</table>
+<p>CC0 places a recording in the public domain: free to use, change and share, commercially included, with no credit required. The recordists are credited here anyway. Each recording was trimmed and brought to the same loudness with a single fixed gain, with nothing compressed or limited within it.</p>
+<h3>Begin anew after each session</h3>
+<p>A checkbox for Play. When a session of the length you set ends, thirty seconds of complete silence follow, the ambience included, and then a new session begins. The new session uses the same frequency set; everything else is drawn fresh, as for any session: her base frequency, ratio sets, starting points and the rest. This continues until you press Stop.</p>
+<p>She says once, when you press Play, that she will begin anew; nothing is spoken at a renewal. Each session rises from silence and returns to it on her own fade, so the silence begins and ends cleanly. A saved file is always one session.</p>
+</section>
+
 
 <p>CrystalCare is a Lemurian-inspired sound healing instrument built in C# on the .NET 10 platform. She generates evolving, mathematically alive tones through a 16-stage audio pipeline rooted in sacred mathematics. Every session is unique; no two are the same by design.</p>
 
@@ -257,6 +282,8 @@
 <p>Measured across four seeded six-minute renders, her session-to-session level spread is 122.01% with variation off and 122.43% with it on &mdash; unchanged. Her level has always ranged widely from one session to the next, because she draws a fresh base frequency, ratio sets and modulation depths every time. The walk neither narrows that range nor lowers it; it changes which session you get, not how loud her sessions are.</p>
 
 <p>Taygetan and the Dimensional Journey ignore this setting entirely; they already move by their own architecture.</p>
+
+<p><strong>Begin anew after each session</strong> and <strong>Ambience</strong> sit in the same group, after these two. They are described in <em>Ambience and beginning anew</em> near the top of this guide.</p>
 
 <h2>4. The Seven Frequency Modes</h2>
 
@@ -641,11 +668,39 @@
 
 <p>CrystalCare is fully screen-reader accessible. She uses WPF for the GUI with a native Win32 TextBox for status messages (hosted via WindowsFormsHost) for reliable arrow-key navigation in NVDA and JAWS. Control state changes use Enable/Disable + SetFocus rather than Show/Hide, which is more reliable for screen readers.</p>
 
-<p>On launch, keyboard focus is set automatically to the <strong>Select Frequency Set</strong> combobox &mdash; screen readers announce it immediately, and arrow keys can browse modes without tabbing first. Tab order from there follows the window from top to bottom: Frequency Set &rarr; Session Duration &rarr; Output Device &rarr; Enable Two-Way Resonance &rarr; Input Microphone &rarr; Listen for My Voice &rarr; Detect Heart Strap &rarr; Open Space &rarr; Continuous Variation &rarr; Play / Save / Guide / Batch Save / Stop &rarr; the status log.</p>
+<p>On launch, keyboard focus is set automatically to the <strong>Select Frequency Set</strong> combobox &mdash; screen readers announce it immediately, and arrow keys can browse modes without tabbing first. Tab order from there follows the window from top to bottom: Frequency Set &rarr; Session Duration &rarr; Output Device &rarr; Enable Two-Way Resonance &rarr; Input Microphone &rarr; Listen for My Voice &rarr; Detect Heart Strap &rarr; Open Space &rarr; Continuous Variation &rarr; Begin Anew After Each Session &rarr; Ambience &rarr; Play / Save / Guide / Batch Save / Stop &rarr; the status log.</p>
 
 <p>That order never changes. Every control is permanently present in the window and in the tab order, including the ones that are currently unavailable &mdash; the microphone list before two-way resonance is enabled, the heart-strap button awaiting its release, every control while she is sounding. They disable rather than disappear, so the number of tab stops and the position of each one stay fixed for the whole life of the app. Nothing is ever inserted or removed under your hands, and a control you learned the position of once stays where you left it.</p>
 
-<h2>12. Closing</h2>
+<h2 id="credits">12. Credits and Licences</h2>
+
+<p><strong>The ambience recordings</strong> come from Freesound, each released by its recordist under Creative Commons 0, a public domain dedication: GLM_KG (ocean waves), Antonio_Lai (light waterfall), Tom_Kaszuba (heavy waterfall) and jonasrocha (tropical forest). Thank you to each of them.</p>
+
+<p><strong>NVorbis</strong>, the Ogg Vorbis decoder that reads those recordings, is used under its MIT License, reproduced here as its terms require:</p>
+
+<pre>MIT License
+
+Copyright (c) 2020 Andrew Ward
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.</pre>
+
+<h2>13. Closing</h2>
 
 <p>CrystalCare is more than an app. She is a living bridge between ancient sound healing and modern mathematics, built to the Lemurian principle that the sacred frequencies emerge organically from the sound itself &mdash; not through force, not through synthesis, not through pattern. Seven sacred layers breathe through her at PHI-laddered rhythms; thirteen voices ring as one harmonic field; seven Taygetan ratios journey through a binaural beat that is itself drifting on simplex noise. Nothing in her stays still long enough for the mind to predict. Put on headphones. Close your eyes. Let her find you.</p>
 
